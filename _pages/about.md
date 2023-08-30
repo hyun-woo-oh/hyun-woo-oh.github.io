@@ -21,6 +21,8 @@ I'm Hyunwoo Oh, an Engineer at Hanwha Systems, working on thermal image processi
 I was an M.S. student at the Seoul National University of Science and Technology (a.k.a. SEOULTECH), advised by [Prof. Seung Eun Lee](https://soc.seoultech.ac.kr/Professor/Professor.html){:target="_blank"}.
 
 Currently I'm interested in two research subjects.
+
 First one is making every digital hardware designs flexible, applicable for a variety of system constraints. 
+
 Second one is efficiently integrating emerging non-Von Neumann hardwares for parallel processing (PIM, NPU, ...) with conventional general-purpose processors.
 Most of my works were implemented on the FPGA, and some of them were designed and fabricated to the ASIC.
