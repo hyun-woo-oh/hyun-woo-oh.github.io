@@ -87,25 +87,25 @@
 - title: Training
   type: time_table
   contents:
-    - title: ISO 26262:2018 Functional Safety Engineering Course: Automotive Foundation Level (FSE-AFL)
+    - title: "ISO 26262:2018 Functional Safety Engineering Course: Automotive Foundation Level (FSE-AFL)"
       institution: Det Norske Veritas
       year: 2023.01
-    - title: Design of High-speed Memory Interface
+    - title: "Design of High-speed Memory Interface"
       institution: IC Design Education Center
       year: 2022.12
-    - title: [Synopsys] Block-level Auto P&R utilizing IC Compiler II
+    - title: "[Synopsys] Block-level Auto P&R utilizing IC Compiler II"
       institution: IC Design Education Center
       year: 2021.11
-    - title: Cell-based Chip Design Flow for Samsung 28nm Process
+    - title: "Cell-based Chip Design Flow for Samsung 28nm Process"
       institution: IC Design Education Center
       year: 2021.10
-    - title: Cell-based Chip Design Flow
+    - title: "Cell-based Chip Design Flow"
       institution: IC Design Education Center
       year: 2021.07
-    - title: [Infineon] Automotive Semiconductor Expert Training - Basic Course
+    - title: "[Infineon] Automotive Semiconductor Expert Training - Basic Course"
       institution: Korea Semiconductor Industry Association
       year: 2021.06
-    - title: Cell-based Chip Design Flow
+    - title: "Cell-based Chip Design Flow"
       institution: IC Design Education Center
       year: 2020.08
     
@@ -117,4 +117,5 @@
       description:
         - Designer: Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim
         - Technology: Samsung 28nm RFCMOS (1-poly 8-metal)
+        - My role: 
     
