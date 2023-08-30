@@ -87,24 +87,26 @@ layout: default
               {% include resume/basics.html %}
             {% when "education" %}
               {% include resume/education.html %}
-            {% when "work" %}
-              {% include resume/work.html %}
-            {% when "volunteer" %}
-              {% include resume/volunteer.html %}
-            {% when "projects" %}
-              {% include resume/projects.html %}
-            {% when "awards" %}
-              {% include resume/awards.html %}
-            {% when "skills" %}
-              {% include resume/skills.html %}
             {% when "publications" %}
               {% include resume/publications.html %}
-            {% when "languages" %}
-              {% include resume/languages.html %}
-            {% when "interests" %}
-              {% include resume/interests.html %}
+            {% when "work" %}
+              {% include resume/work.html %}
+            {% when "awards" %}
+              {% include resume/awards.html %}
+            {% when "projects" %}
+              {% include resume/projects.html %}
             {% when "certificates" %}
               {% include resume/certificates.html %}
+            {% when "skills" %}
+              {% include resume/skills.html %}
+            {% when "languages" %}
+              {% include resume/languages.html %}
+            {% when "volunteer" %}
+              {% include resume/volunteer.html %}
+            {% when "interests" %}
+              {% include resume/interests.html %}
+            {% when "references" %}
+              {% include resume/references.html %}
             {% else %}
 
           {% endcase %}
