@@ -7,9 +7,11 @@
           {% for subitem in content.items %}
             <li><span class="subitem">{{ subitem.title }}</span></li>
             <ul class="subitems">
+              {% if subitem.subitems %}
                 {% for subsubitem in subitem.subitems %}
-                    <li><span class="subitem">{{ subsubitem }}</span></li>
+                  <li><span class="subitem">{{ subsubitem }}</span></li>
                 {$ endfor %}
+              {% endif %}
             </ul>
           {% endfor %}
         </ul>
