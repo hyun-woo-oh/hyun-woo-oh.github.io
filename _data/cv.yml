@@ -84,20 +84,78 @@
       location: Seoul
       year: 2022.07-2022.12
       items:
-        - Funder: Ministry of Science and ICT, Korea
-        - title: "My research"
+        - "Funder: Ministry of Science and ICT, Korea"
+        - title: "My contributions"
           subitems:
-            - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773">[IEEE Access 2023 (J6)]</a>
-            - Conducted research on optimized hardware and software architecture for applying posit number format to previous applications based on IEEE-754. This work includes scalable arithmetic unit architecture to provide versatility in terms of specifications, compiler (GCC) optimization to minimize the additional workloads for migration, and a practical evaluation platform for swift analysis of numeric performance. <a href="https://www.islped.org/2023/files/2023_Program_Booklet.pdf#page=8">[ISLPED 2023 (C6)]</a> <a href="https://ieeexplore.ieee.org/abstract/document/10031524">[ISOCC 2022 (C5)]</a>
+            - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. <a href="https://ieeexplore.ieee.org/abstract/document/10124773">[IEEE Access 2023 (J6)]</a>
+            - Researched optimized hardware and software architecture for applying posit number format to previous applications based on IEEE-754. <a href="https://www.islped.org/2023/files/2023_Program_Booklet.pdf#page=8">[ISLPED 2023 (C6)]</a> <a href="https://ieeexplore.ieee.org/abstract/document/10031524">[ISOCC 2022 (C5)]</a>
+
+    - title: Development of DRAM PIM Semiconductor Technology For Enhanced Computing Function for Edge
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
+      year: 2022.04-2022.12
+      items:
+        - "Funder: Ministry of Science and ICT, Korea"
+        - title: "My contributions"
+          subitems:
+            - Designed a top-level hierarchical hardware architecture for PIM based on DRAM, and a software simulator architecture.
+
     - title: Next-Generation System Semiconductor Design Engineer Development Program
       institution: Seoul National University of Science and Technology, Korea
       location: Seoul
       year: 2022.03-2022.12
       items:
-        - Funder: Ministry of Trade, Industry and Energy, Korea
-        - title: "My research"
+        - "Funder: Ministry of Trade, Industry and Energy, Korea"
+        - title: "My contributions"
           subitems:
-            - Designed local interconnect network (LIN) peripheral IP for ARM Cortex-M0. My work was building a synthesis and verification environment, including automation scripts for Synopsys EDA tools, a randomized testbench pattern generator, and the LIN peripheral software driver. <a href="https://ieeexplore.ieee.org/abstract/document/9730493">[ICCE 2022 (C4)]</a>
+            - Building a verification environment for LIN IP in ASIC design, including automation scripts for Synopsys EDA tools, a randomized testbench pattern generator, and the LIN peripheral software driver. <a href="https://ieeexplore.ieee.org/abstract/document/9730493">[ICCE 2022 (C4)]</a>
+
+    - title: Multi-core Hardware Accelerator for High-Performance Computing (HPC)
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
+      year: 2019.03-2022.03
+      items:
+        - "Funder: Ministry of Science and ICT, Korea"
+        - title: "My contributions"
+          subitems:
+            - Researched processor architecture to provide a platform for building an accelerator-rich environment. <a href="https://ieeexplore.ieee.org/abstract/document/9332944">[ISOCC 2020 (C1)]</a>
+
+    - title: Embedded Artificial Intelligence Module and System Based on Neuromorphic
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
+      year: 2019.12-2021.12
+      items:
+        - "Funder: Ministry of Trade, Industry and Energy, Korea"
+        - title: "My contributions"
+          subitems:
+            - Developed the parameterized HDL generator software for reconfigurable embedded AI module based on the k-NN algorithm. <a href="https://www.mdpi.com/2072-666X/12/7/838">[Micromachines 2021 (J3)]</a>
+            - Researched applications using the embedded AI module. <a href="https://www.jicce.org/journal/view.html?pn=mostread&uid=1183&vmd=Full">[JICCE 2022 (J5)]</a> <a href="https://www.mdpi.com/2072-666X/12/8/852">[Micromachines 2021 (J4)]</a> <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11036311">[ICFICE 2022 (C3)]</a> <a href==https://ieeexplore.ieee.org/abstract/document/9427661">[ICCE 2021 (C2)]</a>
+
+    - title: Light-weight SW-SoC Solution for Respiratory Medical Device
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
+      year: 2019.12-2021.12
+      items:
+        - "Funder: Ministry of Trade, Industry and Energy, Korea"
+        - title: "My contributions"
+          subitems:
+            - Designed a 2D graphics accelerator architecture optimized for graph visualization tasks in medical devices. <a href="https://www.mdpi.com/2079-9292/10/4/469">[Electronics 2021 (J2)]</a>
+            - Developed a software stack for hardware implementation of Lempel-Ziv 77 lossless decompression accelerator. <a href="https://www.mdpi.com/2072-666X/12/2/145">[Micromachines 2021 (J1)]</a>
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: 'Teaching Assisant for "Computer Architecture"'
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
+      year: Fall, 2021
+      maindescription: BSc Electronic Engineering, Year 3
+    - title: 'Teaching Assisant for "Digital System Design"'
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
+      year: Spring, 2021
+      maindescription: BSc Electronic Engineering, Year 3
+
 
 - title: Skills
   type: map
