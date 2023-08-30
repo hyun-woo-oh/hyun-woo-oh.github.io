@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: FPGA & SoC Firmwire Engineer @ Core H/W Team, Hanwha Systems, Pangyo, Korea.
 
 profile:
   align: right
@@ -19,8 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Welcome to my website!
+I'm Hyunwoo Oh, an FPGA & SoC Firmwire Engineer at Hanwha Systems, working on thermal image processing systems using infrared focal plane arrays. Currently my work focuses on designing SoC FPGA-based hardware and developing RTOS for Heterogeneous MPSoC.
+I was an M.S. student at the Seoul National University of Science and Technology (a.k.a. SEOULTECH), advised by [Prof. Seung Eun Lee](https://soc.seoultech.ac.kr/Professor/Professor.html){:target="_blank"}.
+Currently I'm interested in two research subjects.
+First one is making every digital hardware designs flexible, applicable for a variety of system constraints. 
+Second one is efficiently integrating emerging non-Von Neumann hardwares for parallel processing (PIM, NPU, ...) with conventional general-purpose processors.
+Most of my works were implemented on the FPGA, and some of them are designed and fabricated to the ASIC.
