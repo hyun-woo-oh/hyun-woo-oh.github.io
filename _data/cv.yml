@@ -65,15 +65,15 @@
       company: Infra Technology R&D Center, Hanwha Systems, Korea
       location: Pangyo, Gyeonggi
       year: 2023.01 - present
-      description:
-        - Designed SoC FPGA-based integrated thermal image processor for infrared focal plane arrays.
+      items:
+        - Designed SoC FPGA-based integrated thermal image processor for infrared focal plane arrays. <a href="https://dsd-seaa2023.com/wp-content/uploads/2023/08/DSD-Program_12_August2023-hf-RS.pdf#page=3">[DSD 2023 (C8)]</a>
         - Developed of the RTOS for Heterogeneous MPSoC using the TI Vision SDK platform.
 
     - title: Research Assistant
       institution: SoC Platform Lab., Seoul National University of Science and Technology, Korea
       location: Seoul
       year: 2019.03 - 2023.02
-      description:
+      items:
         - "Worked on several research projects funded by the various national institutes (See <b>Research Experience</b> section)."
 
 - title: Research Experience
