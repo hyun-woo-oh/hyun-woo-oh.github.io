@@ -84,18 +84,17 @@
       location: Seoul
       year: 2022.07-2022.12
       items:
-        - title: "Funder: Ministry of Science and ICT, Korea"
+        - Funder: Ministry of Science and ICT, Korea
         - title: "My research"
           subitems:
             - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773">[IEEE Access 2023 (J6)]</a>
             - Conducted research on optimized hardware and software architecture for applying posit number format to previous applications based on IEEE-754. This work includes scalable arithmetic unit architecture to provide versatility in terms of specifications, compiler (GCC) optimization to minimize the additional workloads for migration, and a practical evaluation platform for swift analysis of numeric performance. <a href="https://www.islped.org/2023/files/2023_Program_Booklet.pdf#page=8">[ISLPED 2023 (C6)]</a> <a href="https://ieeexplore.ieee.org/abstract/document/10031524">[ISOCC 2022 (C5)]</a>
-  contents:
     - title: Next-Generation System Semiconductor Design Engineer Development Program
       institution: Seoul National University of Science and Technology, Korea
       location: Seoul
       year: 2022.03-2022.12
       items:
-        - title: "Funder: Ministry of Trade, Industry and Energy, Korea"
+        - Funder: Ministry of Trade, Industry and Energy, Korea
         - title: "My research"
           subitems:
             - Designed local interconnect network (LIN) peripheral IP for ARM Cortex-M0. My work was building a synthesis and verification environment, including automation scripts for Synopsys EDA tools, a randomized testbench pattern generator, and the LIN peripheral software driver. <a href="https://ieeexplore.ieee.org/abstract/document/9730493">[ICCE 2022 (C4)]</a>
