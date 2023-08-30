@@ -87,7 +87,7 @@
         - title: "Funder: Ministry of Science and ICT, Korea"
         - title: My research
           subitems:
-            - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773}{IEEE Access 2023 (J6)}]
+            - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773"}{IEEE Access 2023 (J6)}]
 
 - title: Skills
   type: map
