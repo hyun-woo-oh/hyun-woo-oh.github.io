@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: M.S. in Electronic Engineering
-      institution: Seoul National University of Science and Technology
-      location: Seoul, Korea
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
       year: 2023
       items:
         - 'Thesis: Research on Optimized Processor and Floating-point Unit Architecture for Embedded Systems <a href="https://library.seoultech.ac.kr/en/#/eds/detail?an=edsker.000005084095&dbId=edsker"><i class="fas fa-external-link-alt"></i></a>'
@@ -21,7 +21,7 @@
         - 'GPA: 4.33/4.5'
     - title: B.S. in Electronic Engineering
       institution: Seoul National University of Science and Technology, Korea
-      location: Seoul, Korea
+      location: Seoul
       year: 2021
       items:
         - 'GPA: 3.38/4.5 (3.74/4.5 Major GPA, 3.94/4.5 Last 60 GPA)'
@@ -62,16 +62,16 @@
   type: time_table
   contents:
     - title: Junior Engineer 
-      company: Infra Technology R&D Center, Hanwha Systems
-      location: Pangyo, Gyeonggi, Korea
+      company: Infra Technology R&D Center, Hanwha Systems, Korea
+      location: Pangyo, Gyeonggi
       year: 2023.01 - present
       description:
         - Designed SoC FPGA-based integrated thermal image processor for infrared focal plane arrays.
         - Developed of the RTOS for Heterogeneous MPSoC using the TI Vision SDK platform.
 
     - title: Research Assistant
-      institution: SoC Platform Lab., Seoul National University of Science and Technology
-      location: Seoul, Korea
+      institution: SoC Platform Lab., Seoul National University of Science and Technology, Korea
+      location: Seoul
       year: 2019.03 - 2023.02
       description:
         - "Worked on several research projects funded by the various national institutes (See <b>Research Experience</b> section)."
@@ -80,13 +80,14 @@
   type: time_table
   contents:
     - title: Processing Software on AI Semiconductor Devices
-      institution: Seoul National University of Science and Technology
+      institution: Seoul National University of Science and Technology, Korea
+      location: Seoul
       year: 2022.07-2022.12
       items:
-        title: "Funder: Ministry of Science and ICT, Korea"
-        title: My research
-        subitems:
-          - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773}{IEEE Access 2023 (J6)}]
+        - title: "Funder: Ministry of Science and ICT, Korea"
+        - title: My research
+          subitems:
+            - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773}{IEEE Access 2023 (J6)}]
 
 - title: Skills
   type: map
