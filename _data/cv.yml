@@ -56,7 +56,7 @@
   contents:
     - year: 2020.10.23
       title: <a href=https://soc.seoultech.ac.kr/images_selee/2020/2020_ksia_award/2.png>President of the Institute of Semiconductor Engineers Award</a>
-      description: 21st Korea Semiconductor Design Contest
+      maindescription: in 21st Korea Semiconductor Design Contest
 
 - title: Experience
   type: time_table
