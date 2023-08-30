@@ -7,16 +7,14 @@
           {% for subitem in content.items %}
             {% if subitem.subitems %}
               <li><span class="subitem">{{ subitem.title }}</span></li>
-            {% else %}
-              <li><span class="subitem">{{ subitem }}</span></li>
-            {% endif %}
-            <ul class="subitems">
-              {% if subitem.subitems %}
+              <ul class="subitems">
                 {% for subsubitem in subitem.subitems %}
                   <li><span class="subitem">{{ subsubitem }}</span></li>
                 {% endfor %}
-              {% endif %}
-            </ul>
+              </ul>
+            {% else %}
+              <li><span class="subitem">{{ subitem }}</span></li>
+            {% endif %}
           {% endfor %}
         </ul>
       {% endif %}

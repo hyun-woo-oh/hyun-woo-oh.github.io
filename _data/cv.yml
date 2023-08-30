@@ -49,7 +49,7 @@
       items:
         - 6 Peer-reviewed Journal Articles
         - 8 Peer-reviewed Conference Papers
-    - title: See full list <a href="../publications"><i class="fas fa-external-link-alt"></i></a>
+    - title: See full list  <a href="../publications"><i class="fas fa-external-link-alt"></i></a>
 
 - title: Awards and Honors
   type: time_table
@@ -62,7 +62,7 @@
   type: time_table
   contents:
     - title: Junior Engineer 
-      department: Infra Technology R&D Center, Hanwha Systems
+      company: Infra Technology R&D Center, Hanwha Systems
       location: Pangyo, Gyeonggi, Korea
       year: 2023.01 - present
       description:
@@ -74,7 +74,7 @@
       location: Seoul, Korea
       year: 2019.03 - 2023.02
       description:
-        - Worked on several research projects funded by the various national institutes (See \"Research Experience\" section).
+        - "Worked on several research projects funded by the various national institutes (See <b>Research Experience</b> section)."
 
 - title: Research Experience
   type: time_table
@@ -85,7 +85,7 @@
       items:
         title: "Funder: Ministry of Science and ICT, Korea"
         title: My research
-        subitem:
+        subitems:
           - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773}{IEEE Access 2023 (J6)}]
 
 - title: Skills
