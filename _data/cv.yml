@@ -11,58 +11,110 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.S.
+    - title: M.S. in Electronic Engineering
       institution: Seoul National University of Science and Technology, Korea
       year: 2023
       description:
-        - Electronic Engineering
-    - title: B.S.
+    - title: B.S. in Electronic Engineering
       institution: Seoul National University of Science and Technology, Korea
       year: 2021
       description:
-        - Electronic Engineering
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Hardware-Software Co-design
+      description: Developing co-optimization techniques to enhance the energy efficiency and performance in the context of digital VLSI.
+      items: 
+        - Parameterized Hardware Generator: Designing configurable, scalable architectures and generators that can be tailored for target specifications.
+        - Software Stack: Optimizing software architectures to practically adapt to various hardware configurations.
+    - title: Computer Architecture
+      description: Finding the efficient processor architectures and compiler architectures to fulfill the domain-specific computing requirements.
+      items:
+        - Heterogeneous SoC: Designing the optimized processor architecture to integrate the emerging parallel architectures (PIM, NPU, etc.) and conventional general-purpose processors.
+        - Compilers: Developing domain-specific compilers optimized for targeted hardware designs.
+
+- title: Awards and Honors
+  type: time_table
+  contents:
+    - year: 2020.10.23
+      title: <a href=https://soc.seoultech.ac.kr/images_selee/2020/2020_ksia_award/2.png>President of the Institute of Semiconductor Engineers Award</a>
+      description: 21st Korea Semiconductor Design Contest
 
 - title: Experience
   type: time_table
   contents:
     - title: Junior Engineer 
       institution: Infra Technology R&D Center, Hanwha Systems, Pangyo, Gyeonggi, Korea
-      year: 2023 - present
+      year: 2023.01 - present
       description:
-        - a
-        - b
+        - Designed SoC FPGA-based integrated thermal image processor for infrared focal plane arrays.
+        - Developed of the RTOS for Heterogeneous MPSoC using the TI Vision SDK platform.
 
     - title: Research Assistant
       institution: SoC Platform Lab., Seoul National University of Science and Technology, Seoul, Korea
-      year: 2019 - 2023
+      year: 2019.03 - 2023.02
+      description:
+        - Worked on several research projects funded by the various national institutes.
 
-- title: Research Projects
+- title: Research Experience
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
+      year: 2015.02-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Awards and Honors
+- title: Skills
+  type: map
+  contents:
+    - name: Computer Languages
+      value: C, C++, Python, MATLAB, R
+    - name: Hardware Description Languages
+      value: Verilog, SystemVerilog, Chisel
+    - name: HDL Simulation Tools
+      value: VCS, ModelSim, Verilator
+    - name: FPGA Tools
+      value: Vivado, Vitis, Quartus II/Prime, Nios II EDS
+    - name: Synopsys EDA Tools
+      value: Design Compiler, IC Compiler I/II, PrimeTime, Formality, StarRCXT, Verdi
+    - name: Cadence EDA Tools
+      value: Virtuoso Layout Suite, Calibre DRC/LVS
+    - name: Cadence CAD Tools
+      value: OrCAD Capture, Allegro PCB Designer
+    - name: Operating Systems
+      value: FreeRTOS, TI Vision SDK, PetaLinux
+
+- title: Training
   type: time_table
   contents:
-    - year: 2020
-      items: 
-        - <a href=https://soc.seoultech.ac.kr/images_selee/2020/2020_ksia_award/2.png>President of the Institute of Semiconductor Engineers Award</a> in 21st Korea Semiconductor Design Contest 
-
-- title: Research Interests
-  type: nested_list
+    - title: ISO 26262:2018 Functional Safety Engineering Course: Automotive Foundation Level (FSE-AFL)
+      institution: Det Norske Veritas
+      year: 2023.01
+    - title: Design of High-speed Memory Interface
+      institution: IC Design Education Center
+      year: 2022.12
+    - title: [Synopsys] Block-level Auto P&R utilizing IC Compiler II
+      institution: IC Design Education Center
+      year: 2021.11
+    - title: Cell-based Chip Design Flow for Samsung 28nm Process
+      institution: IC Design Education Center
+      year: 2021.10
+    - title: Cell-based Chip Design Flow
+      institution: IC Design Education Center
+      year: 2021.07
+    - title: [Infineon] Automotive Semiconductor Expert Training - Basic Course
+      institution: Korea Semiconductor Industry Association
+      year: 2021.06
+    - title: Cell-based Chip Design Flow
+      institution: IC Design Education Center
+      year: 2020.08
+    
+- title: Chip Designs
+  type: time_table
   contents:
-    - title: Hardware-Software Co-design
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Processor Architecture
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: A RISC-V Processor Supporting AMBA AXI Protocol for Embedded Systems
+      year: <img src="chip/2201_jws_mpw.png">
+      description:
+        - Designer: Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim
+        - Technology: Samsung 28nm RFCMOS (1-poly 8-metal)
+    
