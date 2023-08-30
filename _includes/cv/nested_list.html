@@ -10,7 +10,7 @@
               {% if subitem.subitems %}
                 {% for subsubitem in subitem.subitems %}
                   <li><span class="subitem">{{ subsubitem }}</span></li>
-                {$ endfor %}
+                {% endfor %}
               {% endif %}
             </ul>
           {% endfor %}
