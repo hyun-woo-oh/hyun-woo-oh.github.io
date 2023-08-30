@@ -82,9 +82,9 @@
     - title: Processing Software on AI Semiconductor Devices
       institution: Seoul National University of Science and Technology
       year: 2022.07-2022.12
-      description:
-        - "Funder: Ministry of Science and ICT, Korea"
-        - My research
+      items:
+        title: "Funder: Ministry of Science and ICT, Korea"
+        title: My research
         subitem:
           - Designed the RISC processor with a custom instruction set extension for flexible AI acceleration for edge devices. This work includes scalable k-NN coprocessor architecture with parameterized HDL generator software and hardware driver library using assembly and C. <a href="https://ieeexplore.ieee.org/abstract/document/10124773}{IEEE Access 2023 (J6)}]
 
