@@ -6,7 +6,7 @@ subtitle: FPGA & SoC Firmwire Engineer @ Core H/W Team, Hanwha Systems, Pangyo, 
 
 profile:
   align: right
-  image: https://soc.seoultech.ac.kr/images/Oh_HW.jpg
+  image: Oh_HW.jpg
   image_circular: false # crops the image to make it circular
 
 news: false  # includes a list of news items
