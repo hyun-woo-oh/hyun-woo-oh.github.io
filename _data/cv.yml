@@ -108,7 +108,7 @@
         - "Funder: Ministry of Trade, Industry and Energy, Korea"
         - title: "My contributions"
           subitems:
-            - Building a verification environment for LIN IP in ASIC design, including automation scripts for Synopsys EDA tools, a randomized testbench pattern generator, and the LIN peripheral software driver. <a href="https://ieeexplore.ieee.org/abstract/document/9730493">[ICCE 2022 (C4)]</a>
+            - Building a verification environment for LIN peripheral IP, including scripts for Synopsys EDA tools, a randomized testbench generator, and the software driver. <a href="https://ieeexplore.ieee.org/abstract/document/9730493">[ICCE 2022 (C4)]</a>
 
     - title: Multi-core Hardware Accelerator for High-Performance Computing (HPC)
       institution: Seoul National University of Science and Technology, Korea
