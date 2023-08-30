@@ -26,7 +26,7 @@
     - title: Hardware-Software Co-design
       items: 
         - "<i>Developing co-optimization techniques to enhance the energy efficiency and performance in the context of digital VLSI.</i>"
-        - "Parameterized Hardware Generator: Designing configurable, scalable architectures and generators that can be tailored for target specifications."
+        - "Parameterized Hardware: Designing configurable, scalable architectures and generators that can be tailored for target specifications."
         - "Software Stack: Optimizing software architectures to practically adapt to various hardware configurations."
     - title: Computer Architecture
       items:
@@ -40,7 +40,7 @@
       items:
         - 6 Peer-reviewed Journal Articles
         - 8 Peer-reviewed Conference Papers
-    - title: <a href="../publications">See the full list</a>
+    - title: See full list <a href="../publications"><i class="fas fa-external-link-alt"></i></a>
 
 - title: Awards and Honors
   type: time_table
@@ -84,7 +84,7 @@
     - name: FPGA Tools
       value: Vivado, Vitis, Quartus II/Prime, Nios II EDS
     - name: Synopsys EDA Tools
-      value: Design Compiler, IC Compiler I/II, PrimeTime, Formality, StarRCXT, VCS, Verdi
+      value: Design Compiler, Memory Compiler, IC Compiler I/II, PrimeTime, Formality, StarRCXT, VCS, Verdi
     - name: Cadence EDA Tools
       value: Virtuoso Layout Suite, Calibre DRC/LVS
     - name: Cadence CAD Tools
@@ -99,22 +99,22 @@
       institution: Det Norske Veritas
       year: 2023.01
     - title: "Design of High-speed Memory Interface"
-      institution: IC Design Education Center
+      institution: IC Design Education Center <a href="http://eng.idec.or.kr/intro/vision/"><i class="fas fa-external-link-alt"></i></a>
       year: 2022.12
     - title: "[Synopsys] Block-level Auto P&R utilizing IC Compiler II"
-      institution: IC Design Education Center
+      institution: IC Design Education Center <a href="http://eng.idec.or.kr/intro/vision/"><i class="fas fa-external-link-alt"></i></a>
       year: 2021.11
     - title: "Cell-based Chip Design Flow for Samsung 28nm Process"
-      institution: IC Design Education Center
+      institution: IC Design Education Center <a href="http://eng.idec.or.kr/intro/vision/"><i class="fas fa-external-link-alt"></i></a>
       year: 2021.10
     - title: "Cell-based Chip Design Flow"
-      institution: IC Design Education Center
+      institution: IC Design Education Center <a href="http://eng.idec.or.kr/intro/vision/"><i class="fas fa-external-link-alt"></i></a>
       year: 2021.07
     - title: "[Infineon] Automotive Semiconductor Expert Training - Basic Course"
       institution: Korea Semiconductor Industry Association
       year: 2021.06
     - title: "Cell-based Chip Design Flow"
-      institution: IC Design Education Center
+      institution: IC Design Education Center <a href="http://eng.idec.or.kr/intro/vision/"><i class="fas fa-external-link-alt"></i></a>
       year: 2020.08
     
 - title: Chip Designs
@@ -123,49 +123,49 @@
     - title: A RISC-V Processor Supporting AMBA AXI Protocol for Embedded Systems
       year: 2022.07
       description:
-        - <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jws_mpw.png">Die photo</a>
+        - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jws_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: RTL Verification"
     - title: Robot-Specific Processor for Autonomous Driving
       year: 2022.07
       description:
-        - <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jyw_mpw.png">Die photo</a>
+        - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jyw_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Youngwoo Jeong, Yue Ri Jeong, <b>Hyun Woo Oh</b>, Kwang Hyun Go"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: System Verification Assistant"
     - title: In-Vehicle Network Processor based on Cortex-M0
       year: 2022.03
       description:
-        - <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/HM2103_chip_mpw.PNG">Die photo</a>
+        - Die photo<a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/HM2103_chip_mpw.PNG"><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Kwon Neung Cho, Jeong Eun Kim, <b>Hyun Woo Oh</b>"
         - "Technology: TSMC 180nm RFCMOS (1-poly 6-metal)"
         - "Role: System Verification SW Dev., RTL Verification, Pre/Post-Layout Simulation"
     - title: A Programmable Embedded AI Processor with Cortex-M0
       year: 2021.07
       description:
-        - <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ckn_mpw.png">Die photo</a>
+        - Die photo<a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ckn_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Kwon Neung Cho, Young Woo Jeong, <b>Hyun Woo Oh</b>, Chang Yeop Han"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: RTL Subblock Design"
     - title: 32-bit Processor with Posit Arithmetic Coprocessor for Embedded Systems
       year: 2021.07
       description:
-        - <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ohw_mpw.png">Die photo</a>
+        - Die photo<a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ohw_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - "Designer: <b>Hyun Woo Oh</b>, Jeong Eun Kim, Do Young Choi, Kwang Hyun Go"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: RTL Design & Verification, ASIC Design Front-end/Back-end, Firmware Development, PCB Design & Chip Test"
     - title: Implementation of Lossless Decompression Accelerator Based on Inflate Algorithm
       year: 2020.09
       description:
-        - <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2002_hgb_layout.png">Die photo</a>
+        - Die photo<a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2002_hgb_layout.png"><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Gwan Beom Hwang, Do Young Choi, <b>Hyun Woo Oh</b>, Chang Yeop Han"
         - "Technology: Samsung 65nm RFCMOS (1-poly 8-metal)"
         - "Role: System Verification SW Dev., PCB Design & Chip Test"
     - title: Communication System with Simple and Fast Communication Error Check Code Based on CRC
       year: 2020.06
       description:
-        - <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2001_hcy_layout.png">Die photo</a>
+        - Die photo<a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2001_hcy_layout.png"><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Chang Yeo Hanp, Kwon Neung Cho, <b>Hyun Woo Oh</b>"
         - "Technology: Magnachip Hynix 0.18um CMOS"
         - "Role: RTL Subblock Design"
