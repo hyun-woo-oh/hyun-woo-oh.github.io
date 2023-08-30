@@ -26,13 +26,13 @@
     - title: Hardware-Software Co-design
       description: Developing co-optimization techniques to enhance the energy efficiency and performance in the context of digital VLSI.
       items: 
-        - Parameterized Hardware Generator: Designing configurable, scalable architectures and generators that can be tailored for target specifications.
-        - Software Stack: Optimizing software architectures to practically adapt to various hardware configurations.
+        - "Parameterized Hardware Generator: Designing configurable, scalable architectures and generators that can be tailored for target specifications."
+        - "Software Stack: Optimizing software architectures to practically adapt to various hardware configurations."
     - title: Computer Architecture
       description: Finding the efficient processor architectures and compiler architectures to fulfill the domain-specific computing requirements.
       items:
-        - Heterogeneous SoC: Designing the optimized processor architecture to integrate the emerging parallel architectures (PIM, NPU, etc.) and conventional general-purpose processors.
-        - Compilers: Developing domain-specific compilers optimized for targeted hardware designs.
+        - "Heterogeneous SoC: Designing the optimized processor architecture to integrate the emerging parallel architectures (PIM, NPU, etc.) and conventional general-purpose processors."
+        - "Compilers: Developing domain-specific compilers optimized for targeted hardware designs."
 
 - title: Awards and Honors
   type: time_table
@@ -69,14 +69,14 @@
   contents:
     - name: Computer Languages
       value: C, C++, Python, MATLAB, R
-    - name: Hardware Description Languages
+    - name: Hardware Description
       value: Verilog, SystemVerilog, Chisel
     - name: HDL Simulation Tools
       value: VCS, ModelSim, Verilator
     - name: FPGA Tools
       value: Vivado, Vitis, Quartus II/Prime, Nios II EDS
     - name: Synopsys EDA Tools
-      value: Design Compiler, IC Compiler I/II, PrimeTime, Formality, StarRCXT, Verdi
+      value: Design Compiler, IC Compiler I/II, PrimeTime, Formality, StarRCXT, VCS, Verdi
     - name: Cadence EDA Tools
       value: Virtuoso Layout Suite, Calibre DRC/LVS
     - name: Cadence CAD Tools
@@ -113,8 +113,9 @@
   type: time_table
   contents:
     - title: A RISC-V Processor Supporting AMBA AXI Protocol for Embedded Systems
-      year: <img src="chip/2201_jws_mpw.png">
+      year: 2022.07
       description:
+        <img src="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jws_mpw.png">
         - "Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "My role: "
