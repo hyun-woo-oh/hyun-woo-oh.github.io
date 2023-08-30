@@ -32,13 +32,13 @@
   contents:
     - title: Hardware-Software Co-design
       items: 
-        - "Developing co-optimization techniques to enhance the energy efficiency and performance in the context of digital VLSI."
+        title: "Developing co-optimization techniques to enhance the energy efficiency and performance in the context of digital VLSI."
         subitems:
           - "<b>Parameterized Hardware</b>: Designing configurable, scalable architectures and generators for tailoring the hardware for target specifications."
           - "<b>Software Stack</b>: Optimizing software architectures to practically adapt to various hardware configurations."
     - title: Computer Architecture
       items:
-        - "<i>Finding the efficient processor architectures and compiler architectures to fulfill the domain-specific computing requirements.</i>"
+        title: "Finding the efficient processor architectures and compiler architectures to fulfill the domain-specific computing requirements."
         subitems:
           - "<b>Heterogeneous Computing</b>: Designing the optimized processor architecture to integrate the emerging parallel architectures (PIM, NPU, etc.) and conventional general-purpose processors."
           - "<b>Compilers</b>: Developing domain-specific compilers optimized for targeted hardware designs."
