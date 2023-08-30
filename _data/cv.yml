@@ -115,8 +115,8 @@
     - title: A RISC-V Processor Supporting AMBA AXI Protocol for Embedded Systems
       year: 2022.07
       description:
-        <img src="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jws_mpw.png">
+        - <img src="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jws_mpw.png">
         - "Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
-        - "My role: "
+        - "My role: Front-End"
     
