@@ -115,7 +115,7 @@
     - title: A RISC-V Processor Supporting AMBA AXI Protocol for Embedded Systems
       year: <img src="chip/2201_jws_mpw.png">
       description:
-        - Designer: Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim
-        - Technology: Samsung 28nm RFCMOS (1-poly 8-metal)
-        - My role: 
+        - "Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim"
+        - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
+        - "My role: "
     
