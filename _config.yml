@@ -75,7 +75,7 @@ github_username: hyun-woo-oh
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: hyunwoooh # your LinkedIn user name
+linkedin_username: hyunwoooh
 telegram_username: # your Telegram user name
 scholar_userid: ufhr4rAAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
@@ -113,7 +113,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: GTM-N73P3ZFT
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
