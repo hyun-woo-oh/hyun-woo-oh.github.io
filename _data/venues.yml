@@ -1,73 +1,79 @@
 "MICRO":
   url: https://microarch.org/
-  color: "#702963"
+  color: "#B29600"
   
 "ISCA":
   url: https://iscaconf.org/
-  color: "#702963"
+  color: "#B29600"
  
 "ASPLOS":
   url: https://www.asplos-conference.org/
-  color: "#702963"
+  color: "#B29600"
  
 "HPCA":
   url: https://www.hpca-conf.org/
-  color: "#702963"
+  color: "#B29600"
 
 "ISLPED":
   url: https://www.islped.org/
-  color: "#702963"
+  color: "#75B200"
   
 "DAC":
   url: https://www.dac.com/
-  color: "#702963"
+  color: "#75B200"
 
 "ICCAD":
   url: https://iccad.com/
-  color: "#702963"
+  color: "#75B200"
  
 "DATE":
   url: https://www.date-conference.com/
-  color: "#702963"
+  color: "#75B200"
 
 "FPGA":
   url: https://www.isfpga.org/
-  color: "#702963"
+  color: "#75B200"
 
 "FCCM":
   url: https://www.isfpga.org/
-  color: "#702963"
+  color: "#75B200"
 
 "FPL":
   url: https://www.isfpga.org/
-  color: "#702963"
+  color: "#75B200"
 
 "PACT":
-  color: "#702963"
+  color: "#75B200"
  
 "DSD":
-  color: "#009F98"
+  color: "#DDD75A"
 
 "ICCE":
   url: https://icce.org/
-  color: "#17445A"
+  color: "#F8BC4C"
 
 "ISOCC":
   url: https://isocc.org/
-  color: "#17445A"
+  color: "#F8BC4C"
+
+"ICFICE":
+  color: "#E56565"
 
 "IEEE Access":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639
-  color: "#009F30"
+  color: "#75B200"
   
 "Sensors":
   url: https://www.mdpi.com/journal/sensors
-  color: "#009F30"
+  color: "#75B200"
 
 "Electronics":
   url: https://www.mdpi.com/journal/electronics
-  color: "#009F30"
+  color: "#75B200"
   
 "Micromachines":
   url: https://www.mdpi.com/journal/micromachines
-  color: "#009F30"
+  color: "#75B200"
+
+"JICCE":
+  color: "#F8BC4C"
