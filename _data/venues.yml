@@ -1,6 +1,73 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"MICRO":
+  url: https://microarch.org/
+  color: "#702963"
+  
+"ISCA":
+  url: https://iscaconf.org/
+  color: "#702963"
+ 
+"ASPLOS":
+  url: https://www.asplos-conference.org/
+  color: "#702963"
+ 
+"HPCA":
+  url: https://www.hpca-conf.org/
+  color: "#702963"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ISLPED":
+  url: https://www.islped.org/
+  color: "#702963"
+  
+"DAC":
+  url: https://www.dac.com/
+  color: "#702963"
+
+"ICCAD":
+  url: https://iccad.com/
+  color: "#702963"
+ 
+"DATE":
+  url: https://www.date-conference.com/
+  color: "#702963"
+
+"FPGA":
+  url: https://www.isfpga.org/
+  color: "#702963"
+
+"FCCM":
+  url: https://www.isfpga.org/
+  color: "#702963"
+
+"FPL":
+  url: https://www.isfpga.org/
+  color: "#702963"
+
+"PACT":
+  color: "#702963"
+ 
+"DSD":
+  color: "#009F98"
+
+"ICCE":
+  url: https://icce.org/
+  color: "#17445A"
+
+"ISOCC":
+  url: https://isocc.org/
+  color: "#17445A"
+
+"IEEE Access":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639
+  color: "#009F30"
+  
+"Sensors":
+  url: https://www.mdpi.com/journal/sensors
+  color: "#009F30"
+
+"Electronics":
+  url: https://www.mdpi.com/journal/electronics
+  color: "#009F30"
+  
+"Micromachines":
+  url: https://www.mdpi.com/journal/micromachines
+  color: "#009F30"
