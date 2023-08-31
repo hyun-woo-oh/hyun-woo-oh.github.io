@@ -77,7 +77,7 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Processing Software on AI Semiconductor Devices
+    - title: Development for Processing Software on AI Semiconductor Devices
       institution: Seoul National University of Science and Technology, Korea
       location: Seoul
       year: 2022.07-2022.12
@@ -118,7 +118,7 @@
           subitems:
             - Researched processor architecture to provide a platform for building an accelerator-rich environment. <a href="https://ieeexplore.ieee.org/abstract/document/9332944">[ISOCC 2020 (C1)]</a>
 
-    - title: Embedded Artificial Intelligence Module and System Based on Neuromorphic
+    - title: Development of Embedded Artificial Intelligence Module and System Based on Neuromorphic
       institution: Seoul National University of Science and Technology, Korea
       location: Seoul
       year: 2019.12-2021.12
@@ -129,7 +129,7 @@
             - Developed the parameterized HDL generator software for reconfigurable embedded AI module based on the k-NN algorithm. <a href="https://www.mdpi.com/2072-666X/12/7/838">[Micromachines 2021 (J3)]</a>
             - Researched applications using the embedded AI module. <a href="https://www.jicce.org/journal/view.html?pn=mostread&uid=1183&vmd=Full">[JICCE 2022 (J5)]</a> <a href="https://www.mdpi.com/2072-666X/12/8/852">[Micromachines 2021 (J4)]</a> <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11036311">[ICFICE 2022 (C3)]</a> <a href==https://ieeexplore.ieee.org/abstract/document/9427661">[ICCE 2021 (C2)]</a>
 
-    - title: Light-weight SW-SoC Solution for Respiratory Medical Device
+    - title: Development of Light-weight SW-SoC Solution for Respiratory Medical Device
       institution: Seoul National University of Science and Technology, Korea
       location: Seoul
       year: 2019.12-2021.12
