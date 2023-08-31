@@ -18,13 +18,11 @@
       items:
         - 'Thesis: Research on Optimized Processor and Floating-point Unit Architecture for Embedded Systems <a href="https://library.seoultech.ac.kr/en/#/eds/detail?an=edsker.000005084095&dbId=edsker"><i class="fas fa-external-link-alt"></i></a>'
         - 'Advisor: Seung Eun Lee <a href="https://soc.seoultech.ac.kr/Professor/Professor.html"><i class="fas fa-user"></i></a>'
-        - 'GPA: 4.33/4.5'
     - title: B.S. in Electronic Engineering
       institution: Seoul National University of Science and Technology, Korea
       location: Seoul
       year: 2021
       items:
-        - 'GPA: 3.38/4.5 (3.74/4.5 Major GPA, 3.94/4.5 Last 60 GPA)'
 
 
 - title: Research Interests
@@ -55,7 +53,7 @@
   type: time_table
   contents:
     - year: 2020.10.23
-      title: <a href=https://soc.seoultech.ac.kr/images_selee/2020/2020_ksia_award/2.png>President of the Institute of Semiconductor Engineers Award</a>
+      title: President of the Institute of Semiconductor Engineers Award <a href=https://soc.seoultech.ac.kr/images_selee/2020/2020_ksia_award/2.png><i class="fas fa-external-link-alt"></i></a>
       maindescription: in 21st Korea Semiconductor Design Contest
 
 - title: Experience
@@ -254,4 +252,11 @@
         - "Designer: Chang Yeo Hanp, Kwon Neung Cho, <b>Hyun Woo Oh</b>"
         - "Technology: Magnachip Hynix 0.18um CMOS"
         - "Role: RTL Subblock Design"
-    
+
+
+- title: Professional Services
+  type: nested_list
+  contents:
+    - title: Reviwer Activities
+      items: 
+        - IEEE Access, 2 times since 2023
