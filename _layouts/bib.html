@@ -24,6 +24,16 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          {%- if entry.present_type -%}
+            <br> 
+            {%- if entry.present_type  == "oral" -%}
+            <i class="fa-solid fa-microphone" style="background-color: #B29600"></i> [Oral]
+            {%- elsif entry.present_type == "poster" -%}
+            <i class="fa-solid fa-microphone" style="background-color: #E56565"></i> [Poster]
+          {%- endif -%}
+          {%- if entry.present_type_text -%}
+            [{entry.present_type_text}]
+          {%- endif -%}
         {%- endif -%}
         </div>
 
@@ -113,7 +123,7 @@
         {% if entry.type == "article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
