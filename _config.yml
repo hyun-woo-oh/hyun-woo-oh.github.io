@@ -6,7 +6,7 @@ title: Hyunwoo Oh # the website title (if blank, full name will be used instead)
 first_name: Hyunwoo
 middle_name: 
 last_name: Oh
-author_first_name: Hyun Woo
+author_first_name: "Hyun Woo"
 author_last_name: Oh
 email: ohhyunwoo@seoultech.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
