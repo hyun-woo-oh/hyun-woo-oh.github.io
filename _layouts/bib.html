@@ -51,8 +51,8 @@
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
-          {%- if site.scholar.author_last_name contains author.last -%}
-            {%- if site.scholar.author_first_name contains author.first -%}
+          {%- if author.last contains site.scholar.author_last_name -%}
+            {%- if author.first contains site.scholar.author_first_name -%}
               {%- assign author_is_self = true -%}
             {%- endif -%}
           {%- endif -%}
