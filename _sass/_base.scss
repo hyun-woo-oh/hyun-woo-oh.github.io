@@ -661,6 +661,20 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+        a.btn-poster {
+          color: var(--poster-bg-color);
+          border: 1px solid var(--poster-bg-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+
+          &:hover {
+            font-weight: bolder;
+            border: 1.5px solid var(--poster-bg-color);
+          }
+        }
       }
 
       .badges {
