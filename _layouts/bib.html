@@ -25,13 +25,11 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
           {%- if entry.present_type -%}
-            <br> 
             {%- if entry.present_type  == "oral" -%}
               <abbr class="badge" style="background-color:#66023C">&nbsp;&nbsp;Oral&nbsp;&nbsp;</abbr>
             {%- elsif entry.present_type == "poster" -%}
               <abbr class="badge" style="background-color:#02662C">Poster</abbr>
             {% endif %}
-            <br> 
           {%- endif -%}
         {%- endif -%}
         </div>
