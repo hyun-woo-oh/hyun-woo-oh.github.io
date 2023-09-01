@@ -648,6 +648,7 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
+          text-transform: none
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -664,6 +665,7 @@ footer.sticky-bottom {
         }
 
         a.btn-html {
+          text-transform: none
           color: var(--html-bg-color);
           border: 1px solid var(--html-bg-color);
           padding-left: 1rem;
@@ -680,6 +682,7 @@ footer.sticky-bottom {
         }
         
         a.btn-pdf {
+          text-transform: none
           color: var(--pdf-bg-color);
           border: 1px solid var(--pdf-bg-color);
           padding-left: 1rem;
@@ -696,6 +699,7 @@ footer.sticky-bottom {
         }
         
         a.btn-poster {
+          text-transform: none
           color: var(--poster-bg-color);
           border: 1px solid var(--poster-bg-color);
           padding-left: 1rem;
@@ -712,6 +716,7 @@ footer.sticky-bottom {
         }
         
         a.btn-slides {
+          text-transform: none
           color: var(--oral-bg-color);
           border: 1px solid var(--oral-bg-color);
           padding-left: 1rem;
