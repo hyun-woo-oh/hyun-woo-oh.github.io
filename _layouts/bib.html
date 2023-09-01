@@ -27,13 +27,10 @@
           {%- if entry.present_type -%}
             <br> 
             {%- if entry.present_type  == "oral" -%}
-            <i class="fa-solid fa-microphone" style="color: #B29600"></i> [Oral]
+              <abbr class="badge" style="background-color:#66023C">&nbsp;Oral&nbsp;</abbr>
             {%- elsif entry.present_type == "poster" -%}
-            <i class="fa-solid fa-microphone" style="color: #E56565"></i> [Poster]
-            {%- endif -%}
-          {%- endif -%}
-          {%- if entry.present_text -%}
-            [{{entry.present_text}}]
+              <abbr class="badge" style="background-color:#02662C">Poster</abbr>
+            {% endif %}
           {%- endif -%}
         {%- endif -%}
         </div>
@@ -181,9 +178,9 @@
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
-            <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+            <a href="{{ entry.poster }}" class="btn-poster btn-sm z-depth-0" role="button">Poster</a>
             {%- else -%}
-            <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+            <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn-poster btn-sm z-depth-0" role="button">Poster</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.slides %}
