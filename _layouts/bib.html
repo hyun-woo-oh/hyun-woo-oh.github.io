@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-1 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <div class="col-sm-1 {% if entry.preview %}preview{% else %}abbr{% endif %}" style="width: 12.5%; flex: 0 0 12.5%; max-width: 12.5%;">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -36,7 +36,7 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-9">
+        <div id="{{entry.key}}" class="col-sm-9" style="width: 87.5%; flex: 0 0 87.5%; max-width: 87.5%;">
         <!-- Title -->
         <div class="title">{{entry.title}}</div>
         <!-- Author -->
