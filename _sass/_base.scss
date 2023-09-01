@@ -661,6 +661,7 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+        
         a.btn-poster {
           color: var(--poster-bg-color);
           border: 1px solid var(--poster-bg-color);
@@ -674,6 +675,21 @@ footer.sticky-bottom {
             color: #ffffff;
             background-color: var(--poster-hover-color);
             border: 1px solid var(--poster-hover-color);
+          }
+        }
+        a.btn-slides {
+          color: var(--oral-bg-color);
+          border: 1px solid var(--oral-bg-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+
+          &:hover {
+            color: #ffffff;
+            background-color: var(--oral-hover-color);
+            border: 1px solid var(--oral-hover-color);
           }
         }
       }
