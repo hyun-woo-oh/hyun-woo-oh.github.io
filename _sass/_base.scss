@@ -671,8 +671,8 @@ footer.sticky-bottom {
           margin-left: 0;
 
           &:hover {
-            font-weight: bolder;
-            border: 1.5px solid var(--poster-bg-color);
+            color: var(--poster-hover-color);
+            border: 2px solid var(--poster-hover-color);
           }
         }
       }
