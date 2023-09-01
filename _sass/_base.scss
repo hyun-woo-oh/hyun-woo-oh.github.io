@@ -648,11 +648,12 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
+          font-size: medium;
           text-transform: none;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
@@ -668,10 +669,6 @@ footer.sticky-bottom {
           text-transform: none;
           color: var(--html-bg-color);
           border: 1px solid var(--html-bg-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
           margin-left: 0;
 
           &:hover {
@@ -685,10 +682,6 @@ footer.sticky-bottom {
           text-transform: none;
           color: var(--pdf-bg-color);
           border: 1px solid var(--pdf-bg-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
           margin-left: 0;
 
           &:hover {
@@ -702,10 +695,6 @@ footer.sticky-bottom {
           text-transform: none;
           color: var(--poster-bg-color);
           border: 1px solid var(--poster-bg-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
           margin-left: 0;
 
           &:hover {
@@ -719,10 +708,6 @@ footer.sticky-bottom {
           text-transform: none;
           color: var(--oral-bg-color);
           border: 1px solid var(--oral-bg-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
           margin-left: 0;
 
           &:hover {
