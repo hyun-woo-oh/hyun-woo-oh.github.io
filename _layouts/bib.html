@@ -20,16 +20,16 @@
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            <abbr class="button" width="100px" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-            <abbr class="badge">{{entry.abbr}}</abbr>
+            <abbr class="button">{{entry.abbr}}</abbr>
           {%- endif -%}
           {%- if entry.present_type -%}
             &nbsp;
             {%- if entry.present_type  == "oral" -%}
-              <abbr class="badge" style="background-color:#bd33a4">&nbsp;&nbsp;Oral&nbsp;&nbsp;</abbr>
+              <abbr class="button" style="background-color:#bd33a4">&nbsp;&nbsp;Oral&nbsp;&nbsp;</abbr>
             {%- elsif entry.present_type == "poster" -%}
-              <abbr class="badge" style="background-color:#02662C">Poster</abbr>
+              <abbr class="button" style="background-color:#02662C">Posters</abbr>
             {% endif %}
           {%- endif -%}
         {%- endif -%}
