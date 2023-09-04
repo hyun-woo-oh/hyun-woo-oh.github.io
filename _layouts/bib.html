@@ -15,21 +15,23 @@
             alt=entry.preview -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
+          {%- assign venue_style = nil -%}
           {%- if site.data.venues[entry.abbr] -%}
-            {%- assign venue_style = nil -%}
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="button" width="500px" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
-          {%- else -%}
-            <abbr class="button">{{entry.abbr}}</abbr>
+          {%- endif -%}
+          {%- if entry.type == "inproceedings" or entry.type == "incollection" -%}
+            <abbr class="badge badge-conf" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+          {%- elsif entry.type == "article" -%}
+            <abbr class="badge badge-jrnl" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- endif -%}
           {%- if entry.present_type -%}
             &nbsp;
             {%- if entry.present_type  == "oral" -%}
-              <abbr class="button" style="background-color:#bd33a4">&nbsp;&nbsp;Oral&nbsp;&nbsp;</abbr>
+              <abbr class="badge" style="background-color:#bd33a4">&nbsp;&nbsp;Oral&nbsp;&nbsp;</abbr>
             {%- elsif entry.present_type == "poster" -%}
-              <abbr class="button" style="background-color:#02662C">Posters</abbr>
+              <abbr class="badge" style="background-color:#02662C">Poster</abbr>
             {% endif %}
           {%- endif -%}
         {%- endif -%}
@@ -174,7 +176,7 @@
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
           {%- if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+            <a href="{{ entry.code }}" class="btn btn-code btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}

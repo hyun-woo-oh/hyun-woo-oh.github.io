@@ -591,11 +591,11 @@ footer.sticky-bottom {
       }
 
       .abbr {
-        width: 100rem;
         height: 2rem;
         margin-bottom: 0.5rem;
 
         abbr {
+          min-width: 3.475rem;
           display: inline-block;
           background-color: var(--global-theme-color);
           padding-left: 0.5rem;
@@ -608,6 +608,13 @@ footer.sticky-bottom {
               text-decoration: none;
             }
           }
+        }
+        abbr.badge-conf {
+            background-color: var(--global-badge-conf-color)
+        }
+
+        abbr.badge-jrnl {
+            background-color: var(--global-badge-jrnl-color)
         }
 
         .award {
@@ -661,8 +668,8 @@ footer.sticky-bottom {
 
           &:hover {
             color: #ffffff;
-            background-color: #000000;
-            border-color: #000000;
+            background-color: #808080;
+            border-color: #808080;
           }
         }
 
@@ -692,6 +699,19 @@ footer.sticky-bottom {
           }
         }
         
+        a.btn-code {
+          text-transform: none;
+          color: var(--code-bg-color);
+          border: 1px solid var(--code-bg-color);
+          margin-left: 0;
+
+          &:hover {
+            color: #ffffff;
+            background-color: var(--code-hover-color);
+            border: 1px solid var(--code-hover-color);
+          }
+        }
+
         a.btn-poster {
           text-transform: none;
           color: var(--poster-bg-color);

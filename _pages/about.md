@@ -7,23 +7,23 @@ subtitle: FPGA & SoC Firmwire Engineer @ Core H/W Team, Hanwha Systems, Pangyo, 
 profile:
   align: right
   image: Oh_HW.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hello there! I'm Hyunwoo Oh.
 
-Welcome to my website!
-I'm Hyunwoo Oh, an Engineer at Hanwha Systems, working on thermal image processing systems using infrared focal plane arrays. Currently my work focuses on designing SoC FPGA-based hardware and developing RTOS for Heterogeneous MPSoC.
+I earned my M.S. degree in Electronic Engineering from Seoul National University of Science and Technology in 2023, where I was advised by [Prof. Seung Eun Lee](https://soc.seoultech.ac.kr/Professor/Professor.html){:target="_blank"}.
 
-I was an M.S. student at the Seoul National University of Science and Technology (a.k.a. SEOULTECH), advised by [Prof. Seung Eun Lee](https://soc.seoultech.ac.kr/Professor/Professor.html){:target="_blank"}.
+During my Master's, I focused on two main research topics:
 
-Currently I'm interested in two research subjects.
+1. Designing flexible architectures to incorporate novel standard for real number arithmetic, specifically "posit", into general-purpose processors.
+2. Integrating domain-specific hardware for parallel processing into conventional general-purpose processors.
 
-First one is making every digital hardware designs flexible, applicable for a variety of system constraints. 
+Most of my work was implemented using FPGAs, and some projects were fabricated into ASICs.
 
-Second one is efficiently integrating emerging non-Von Neumann hardwares for parallel processing (PIM, NPU, ...) with conventional general-purpose processors.
+Now, I am a Junior Engineer at Hanwha Systems, a leading Korean defense electronics company. In this role, I am responsible for designing SoC FPGA-based image processors and developing RTOS for Heterogeneous MPSoCs. Both of these tasks are related to infrared image processing.
 
-Most of my works were implemented on the FPGA, and some of them were designed and fabricated to the ASIC.
