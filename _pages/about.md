@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: FPGA & SoC Firmwire Engineer @ Core H/W Team, Hanwha Systems, Pangyo, Korea.
+subtitle: FPGA Design & SoC Firmwire Engineer @ Core H/W Team, Hanwha Systems, Pangyo, Korea.
 
 profile:
   align: right
