@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /publications/
-title: Peer-reviewed publications
+title: publications
 description:
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-
+List of peer-reviewed publications in reverse chronical order.
 <div class="publications">
   <ol class="bibliography">
    <li>
