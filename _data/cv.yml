@@ -28,18 +28,18 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Hardware-Software Co-design
-      items: 
-        - title: "Developing co-optimization techniques to enhance the energy efficiency and performance in the context of digital VLSI."
-          subitems:
-            - "<b>Parameterized Hardware</b>: Designing configurable, scalable architectures and generators for tailoring the hardware for target specifications."
-            - "<b>Software Stack</b>: Optimizing software architectures to practically adapt to various hardware configurations."
     - title: Computer Architecture
       items:
-        - title: "Finding the efficient processor architectures and compiler architectures to fulfill the domain-specific computing requirements."
+        - title: "Exploring novel HW architecture and methodologies to meet the growing computing performance and efficiency demands."
           subitems:
-            - "<b>Heterogeneous Computing</b>: Designing the optimized processor architecture to integrate the emerging parallel architectures (PIM, NPU, etc.) and conventional general-purpose processors."
-            - "<b>Compilers</b>: Developing domain-specific compilers optimized for targeted hardware designs."
+            - "<b>Heterogeneous Computing</b>: Designing the optimized processor architectures that integrate both emerging parallel machines (PIM, NPU, etc.) and conventional general-purpose processors."
+            - "<b>Compilers</b>: Developing SW compilers optimized for targeted HW designs."
+    - title: HW/SW Co-design
+      items: 
+        - title: "Developing techniques for co-optimization to improve energy efficiency and performance."
+          subitems:
+            - "<b>Parameterized HW Design Framework</b>: Designing configurable, scalable architectures with RTL generators, compilers, and SW stacks to tailor the HW to system constraints such as power, energy, and area."
+            - "<b>Partitioning Methodology</b>: Investigating a method to derive the parameters to mitigate the impact of Amdahl’s law and maximize system performance."
 - title: Publications
   type: nested_list
   contents:
