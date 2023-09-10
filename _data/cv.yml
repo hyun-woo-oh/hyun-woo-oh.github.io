@@ -126,8 +126,8 @@
         - "Funder: Ministry of Trade, Industry and Energy, Korea"
         - title: "My contributions"
           subitems:
-            - Developed the parameterized HDL generator software for reconfigurable embedded AI module based on the k-NN algorithm. <a href="https://www.mdpi.com/2072-666X/12/7/838">[Micromachines 2021 (J3)]</a>
-            - Researched applications using the embedded AI module. <a href="https://www.jicce.org/journal/view.html?pn=mostread&uid=1183&vmd=Full">[JICCE 2022 (J5)]</a> <a href="https://www.mdpi.com/2072-666X/12/8/852">[Micromachines 2021 (J4)]</a> <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11036311">[ICFICE 2022 (C3)]</a> <a href==https://ieeexplore.ieee.org/abstract/document/9427661">[ICCE 2021 (C2)]</a>
+            - Developed the parameterized HDL generator software for an embedded AI module. <a href="https://www.mdpi.com/2072-666X/12/7/838">[Micromachines 2021 (J3)]</a>
+            - Researched applications of the AI module. <a href="https://www.jicce.org/journal/view.html?pn=mostread&uid=1183&vmd=Full">[JICCE 2022 (J5)]</a> <a href="https://www.mdpi.com/2072-666X/12/8/852">[Micromachines 2021 (J4)]</a> <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11036311">[ICFICE 2022 (C3)]</a> <a href==https://ieeexplore.ieee.org/abstract/document/9427661">[ICCE 2021 (C2)]</a>
 
     - title: Development of Light-weight SW-SoC Solution for Respiratory Medical Device
       institution: Seoul National University of Science and Technology, Korea
@@ -184,21 +184,27 @@
     - title: "Design of High-speed Memory Interface"
       institution: IC Design Education Center <a href="http://eng.idec.or.kr/intro/vision/"><i class="fas fa-external-link-alt"></i></a>
       year: 2022.12
+      maindescription: Certificate <a href=assets/pdf/cert/training/06_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "[Synopsys] Block-level Auto P&R utilizing IC Compiler II"
       institution: IC Design Education Center
       year: 2021.11
+      maindescription: Certificate <a href=assets/pdf/cert/training/05_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "Cell-based Chip Design Flow for Samsung 28nm Process"
       institution: IC Design Education Center
       year: 2021.10
+      maindescription: Certificate <a href=assets/pdf/cert/training/04_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "Cell-based Chip Design Flow"
       institution: IC Design Education Center
       year: 2021.07
+      maindescription: Certificate <a href=assets/pdf/cert/training/03_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "[Infineon] Automotive Semiconductor Expert Training - Basic Course"
       institution: Korea Semiconductor Industry Association
       year: 2021.06
+      maindescription: Certificate <a href=assets/pdf/cert/training/02_ksia.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "Cell-based Chip Design Flow"
       institution: IC Design Education Center
       year: 2020.08
+      maindescription: Certificate <a href=assets/pdf/cert/training/01_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     
 - title: Chip Designs
   type: time_table
@@ -207,6 +213,7 @@
       year: 2022.07
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jws_mpw.png"><i class="fas fa-external-link-alt"></i></a>
+        - Certificate <a href=assets/pdf/cert/chip/07_s28_2201_jws.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Won Sik Jeong, Sun Beom Kwon, <b>Hyun Woo Oh</b>, Jeongeun Kim"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: RTL Verification"
@@ -214,6 +221,7 @@
       year: 2022.07
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jyw_mpw.png"><i class="fas fa-external-link-alt"></i></a>
+        - Certificate <a href=assets/pdf/cert/chip/06_s28_2201_jyw.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Youngwoo Jeong, Yue Ri Jeong, <b>Hyun Woo Oh</b>, Kwang Hyun Go"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: System Verification Assistant"
@@ -221,6 +229,7 @@
       year: 2022.03
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/HM2103_chip_mpw.PNG"><i class="fas fa-external-link-alt"></i></a>
+        - Certificate <a href=assets/pdf/cert/chip/05_hm_2103_ckn.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Kwon Neung Cho, Jeong Eun Kim, <b>Hyun Woo Oh</b>"
         - "Technology: TSMC 180nm RFCMOS (1-poly 6-metal)"
         - "Role: System Verification SW Dev., RTL Verification, Pre/Post-Layout Simulation"
@@ -228,6 +237,7 @@
       year: 2021.07
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ckn_mpw.png"><i class="fas fa-external-link-alt"></i></a>
+        - Certificate <a href=assets/pdf/cert/chip/04_s28_2101_ckn.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Kwon Neung Cho, Young Woo Jeong, <b>Hyun Woo Oh</b>, Chang Yeop Han"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: RTL Subblock Design"
@@ -235,6 +245,7 @@
       year: 2021.07
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ohw_mpw.png"><i class="fas fa-external-link-alt"></i></a>
+        - Certificate <a href=assets/pdf/cert/chip/03_s28_2101_ohw.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: <b>Hyun Woo Oh</b>, Jeong Eun Kim, Do Young Choi, Kwang Hyun Go"
         - "Technology: Samsung 28nm RFCMOS (1-poly 8-metal)"
         - "Role: RTL Design & Verification, ASIC Design Front-end/Back-end, Firmware Development, PCB Design & Chip Test"
@@ -242,6 +253,7 @@
       year: 2020.09
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2002_hgb_layout.png"><i class="fas fa-external-link-alt"></i></a>
+        - Certificate <a href=assets/pdf/cert/chip/02_s65_2002_hgb.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Gwan Beom Hwang, Do Young Choi, <b>Hyun Woo Oh</b>, Chang Yeop Han"
         - "Technology: Samsung 65nm RFCMOS (1-poly 8-metal)"
         - "Role: System Verification SW Dev., PCB Design & Chip Test"
@@ -249,6 +261,7 @@
       year: 2020.06
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2001_hcy_layout.png"><i class="fas fa-external-link-alt"></i></a>
+        - Certificate <a href=assets/pdf/cert/chip/01_ms180_2001_hcy.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Chang Yeo Hanp, Kwon Neung Cho, <b>Hyun Woo Oh</b>"
         - "Technology: Magnachip Hynix 0.18um CMOS"
         - "Role: RTL Subblock Design"
