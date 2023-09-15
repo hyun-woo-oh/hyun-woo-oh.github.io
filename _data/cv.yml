@@ -186,23 +186,23 @@
       year: 2022.12
       maindescription: Certificate <a href=../assets/pdf/cert/training/06_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "Cell-based Chip Design Flow for Samsung 28nm Process"
-      institution: IC Design Education Center
+      institution: IC Design Education Center (IDEC)
       year: 2021.11
-      maindescription: Certificate <a href=../assets/pdf/cert/training/04_idec.pdf><i class="fas fa-external-link-alt"></i></a>
-    - title: "[Synopsys] Block-level Auto P&R utilizing IC Compiler II"
-      institution: IC Design Education Center
-      year: 2021.10
       maindescription: Certificate <a href=../assets/pdf/cert/training/05_idec.pdf><i class="fas fa-external-link-alt"></i></a>
+    - title: "[Synopsys] Block-level Auto P&R utilizing IC Compiler II"
+      institution: IC Design Education Center (IDEC)
+      year: 2021.10
+      maindescription: Certificate <a href=../assets/pdf/cert/training/04_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "Cell-based Chip Design Flow"
-      institution: IC Design Education Center
+      institution: IC Design Education Center (IDEC)
       year: 2021.07
       maindescription: Certificate <a href=../assets/pdf/cert/training/03_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "[Infineon] Automotive Semiconductor Expert Training - Basic Course"
-      institution: Korea Semiconductor Industry Association
+      institution: Korea Semiconductor Industry Association (KSIA)
       year: 2021.06
       maindescription: Certificate <a href=../assets/pdf/cert/training/02_ksia.pdf><i class="fas fa-external-link-alt"></i></a>
     - title: "Cell-based Chip Design Flow"
-      institution: IC Design Education Center
+      institution: IC Design Education Center (IDEC)
       year: 2020.08
       maindescription: Certificate <a href=../assets/pdf/cert/training/01_idec.pdf><i class="fas fa-external-link-alt"></i></a>
     
