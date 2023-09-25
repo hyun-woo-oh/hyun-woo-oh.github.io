@@ -211,6 +211,7 @@
   contents:
     - title: A RISC-V Processor Supporting AMBA AXI Protocol for Embedded Systems
       year: 2022.07
+      img: ../assets/img/chip/7_2201_jws_mpw.png
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jws_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - Certificate <a href=../assets/pdf/cert/chip/07_s28_2201_jws.pdf><i class="fas fa-external-link-alt"></i></a>
@@ -219,6 +220,7 @@
         - "Role: RTL Verification"
     - title: Robot-Specific Processor for Autonomous Driving
       year: 2022.07
+      img: ../assets/img/chip/6_2201_jyw_mpw.png
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2201_jyw_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - Certificate <a href=../assets/pdf/cert/chip/06_s28_2201_jyw.pdf><i class="fas fa-external-link-alt"></i></a>
@@ -227,6 +229,7 @@
         - "Role: System Verification Assistant"
     - title: In-Vehicle Network Processor based on Cortex-M0
       year: 2022.03
+      img: ../assets/img/chip/5_HM2103_chip_mpw.png
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/HM2103_chip_mpw.PNG"><i class="fas fa-external-link-alt"></i></a>
         - Certificate <a href=../assets/pdf/cert/chip/05_hm_2103_ckn.pdf><i class="fas fa-external-link-alt"></i></a>
@@ -235,6 +238,7 @@
         - "Role: System Verification SW Dev., RTL Verification, Pre/Post-Layout Simulation"
     - title: A Programmable Embedded AI Processor with Cortex-M0
       year: 2021.07
+      img: ../assets/img/chip/4_2101_ckn_mpw.png
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ckn_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - Certificate <a href=../assets/pdf/cert/chip/04_s28_2101_ckn.pdf><i class="fas fa-external-link-alt"></i></a>
@@ -243,6 +247,7 @@
         - "Role: RTL Subblock Design"
     - title: 32-bit Processor with Posit Arithmetic Coprocessor for Embedded Systems
       year: 2021.07
+      img: ../assets/img/chip/3_2101_ohw_mpw.png
       items:
         - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/mpw/2101_ohw_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - Certificate <a href=../assets/pdf/cert/chip/03_s28_2101_ohw.pdf><i class="fas fa-external-link-alt"></i></a>
@@ -251,16 +256,18 @@
         - "Role: RTL Design & Verification, ASIC Design Front-end/Back-end, Firmware Development, PCB Design & Chip Test"
     - title: Implementation of Lossless Decompression Accelerator Based on Inflate Algorithm
       year: 2020.09
+      img: ../assets/img/chip/2_2002_hgb_mpw.png
       items:
-        - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2002_hgb_layout.png"><i class="fas fa-external-link-alt"></i></a>
+        - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2002_hgb_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - Certificate <a href=../assets/pdf/cert/chip/02_s65_2002_hgb.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Gwan Beom Hwang, Do Young Choi, <b>Hyun Woo Oh</b>, Chang Yeop Han"
         - "Technology: Samsung 65nm RFCMOS (1-poly 8-metal)"
         - "Role: System Verification SW Dev., PCB Design & Chip Test"
     - title: Communication System with Simple and Fast Communication Error Check Code Based on CRC
       year: 2020.06
+      img: ../assets/img/chip/1_2001_hcy_mpw.png
       items:
-        - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2001_hcy_layout.png"><i class="fas fa-external-link-alt"></i></a>
+        - Die photo <a href="https://soc.seoultech.ac.kr/Researches/research_img/layout/2001_hcy_mpw.png"><i class="fas fa-external-link-alt"></i></a>
         - Certificate <a href=../assets/pdf/cert/chip/01_ms180_2001_hcy.pdf><i class="fas fa-external-link-alt"></i></a>
         - "Designer: Chang Yeo Hanp, Kwon Neung Cho, <b>Hyun Woo Oh</b>"
         - "Technology: Magnachip Hynix 0.18um CMOS"
