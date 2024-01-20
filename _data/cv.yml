@@ -43,10 +43,10 @@
 - title: Publications
   type: nested_list
   contents:
-    - title: I have authored
+    - title: I have authored/co-authored
       items:
-        - 6 Peer-reviewed Journal Articles
-        - 8 Peer-reviewed Conference Papers
+        - 7 Peer-reviewed Journal Articles
+        - 9 Peer-reviewed Conference Papers
     - title: See full list  <a href="../publications"><i class="fas fa-external-link-alt"></i></a>
 
 - title: Awards and Honors
