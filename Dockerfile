@@ -31,6 +31,7 @@ ADD Gemfile /srv/jekyll
 WORKDIR /srv/jekyll
 
 RUN bundle install
+RUN bundle update
 
 # Set Jekyll environment
 ENV JEKYLL_ENV=production 
