@@ -48,6 +48,9 @@
 "ISOCC":
   url: https://isocc.org/
 
+"AICAS":
+  url: https://www.aicas2024.org/
+
 "ICFICE":
 
 
@@ -59,6 +62,7 @@
 "TCAS-I":
 
 "TCAS-II":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8920
 
 "TVLSI":
 
