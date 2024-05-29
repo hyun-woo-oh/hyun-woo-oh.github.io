@@ -17,8 +17,8 @@ List of peer-reviewed publications in reverse chronical order.
        <br>
        <abbr class="badge badge-conf">Int'l Conference</abbr>
        &nbsp;
-       <abbr class="badge badge-conf" style="background-color:#b30000">Top Conference</abbr>
-       &nbsp;
+<!--       <abbr class="badge badge-conf" style="background-color:#b30000">Top Conference</abbr> -->
+<!--       &nbsp; -->
        <abbr class="badge badge-jrnl">Int'l Journal</abbr>
      </div>
    </li>
