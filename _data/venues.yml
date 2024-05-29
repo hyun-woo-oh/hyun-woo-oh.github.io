@@ -1,51 +1,46 @@
 "MICRO":
   url: https://microarch.org/
-  color: "#b30000"
   
 "ISCA":
   url: https://iscaconf.org/
-  color: "#b30000"
  
 "ASPLOS":
   url: https://www.asplos-conference.org/
-  color: "#b30000"
  
 "HPCA":
   url: https://www.hpca-conf.org/
-  color: "#b30000"
 
 "ISLPED":
   url: https://www.islped.org/
-  color: "#b30000"
   
 "DAC":
   url: https://www.dac.com/
-  color: "#b30000"
 
 "ICCAD":
   url: https://iccad.com/
-  color: "#b30000"
  
 "DATE":
   url: https://www.date-conference.com/
-  color: "#b30000"
 
 "FPGA":
   url: https://www.isfpga.org/
-  color: "#b30000"
 
 "FCCM":
   url: https://www.isfpga.org/
-  color: "#b30000"
 
 "FPL":
   url: https://www.isfpga.org/
-  color: "#b30000"
 
 "PACT":
-  color: "#b30000"
+
+"RTCSA":
+  url: https://rtcsa2024.github.io/
+
+"ISCAS":
+  url: https://2024.ieee-iscas.org/
  
 "DSD":
+  url: https://dsd-seaa.com/
 
 "ICCE":
   url: https://icce.org/
