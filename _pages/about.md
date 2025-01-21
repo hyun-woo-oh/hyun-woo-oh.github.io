@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CS PhD Student @ UC Irvine / Graduate Student Researcher @ [BIASLab](https://biaslab.ics.uci.edu/)
+subtitle: CS PhD Student @ UC Irvine / Graduate Student Researcher @ BIASLab
 
 profile:
   align: right
@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hello there! I'm Hyunwoo Oh.
 
-I'm a PhD student in Computer Science at the University of California, Irvine, supervised by [Prof. Mohsen Imani](http://www.mohsenimani.com/){:target="_blank"}.
+I'm a PhD student in Computer Science at the University of California, Irvine, supervised by [Prof. Mohsen Imani](http://www.mohsenimani.com/){:target="_blank"} @ [BIASLab](https://biaslab.ics.uci.edu/){:target="_blank"}.
 
 My research focuses on scaling emerging AI models (e.g., multimodal, ViT, GNN) that demand massive computational resources into more affordable and efficient solutions. I specialize in architecture-level hardware-software co-design and implementation, often exploring more high- and low-level topics such as AI model optimizations and novel circuit/system designs like processing-in-memory (PIM). I love venturing beyond my core research areas and embracing challenges.
 
