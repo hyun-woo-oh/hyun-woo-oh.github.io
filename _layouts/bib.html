@@ -57,6 +57,9 @@
             {%- if site.author_first_name contains author.first -%}
               {%- assign author_is_self = true -%}
             {%- endif -%}
+            {%- if site.author_first_name2 contains author.first -%}
+              {%- assign author_is_self = true -%}
+            {%- endif -%}
           {%- endif -%}
           {%- assign coauthor_url = nil -%}
           {%- if site.data.coauthors[author_last_name] -%}
