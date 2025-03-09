@@ -9,6 +9,21 @@ layout: default
     <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
       {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
+  
+  <div id="adobe-dc-view"></div>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
+    <script type="text/javascript">
+      document.addEventListener("adobe_dc_view_sdk.ready", function(){
+        var adobeDCView = new AdobeDC.View({clientId: "api_key", divId: "adobe-dc-view"});
+        adobeDCView.previewFile({
+          content: { location: { url: "hyun-woo-oh.github.io/assets/pdf/CV_Hyunwoo_Oh_240117.pdf" } },
+          metaData: { fileName: "CV_Hyunwoo_Oh_03082025" }
+        }, {});
+      });
+    </script>
+
+  
 
   <h4>Table of contents</h4>
   <ul class="timeline">
