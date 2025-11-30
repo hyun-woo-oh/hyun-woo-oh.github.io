@@ -1,23 +1,177 @@
 ---
 ---
-
-@inproceedings{jeong_itask_2025,
-    address = {San Francisco, CA, USA},
-    title = {{iTask: Task-Oriented Object Detection in Resource-Constrained Environments}},
+@inproceedings{oh_tsar_2026,
+    address = {Verona, Italy},
+    title = {{T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization}},
     isbn = {},
     url = {},
     doi = {},
+    abstract = {Recent advances in LLMs have outpaced the computational and memory capacities of edge platforms that primarily employ CPUs, thereby challenging efficient and scalable deployment. While ternary quantization enables significant resource savings, existing CPU solutions rely heavily on memory-based lookup tables (LUTs) which limit scalability, and FPGA or GPU accelerators remain impractical for edge use. This paper presents T-SAR, the first framework to achieve scalable ternary LLM inference on CPUs by repurposing the SIMD register file for dynamic, in-register LUT generation with minimal hardware modifications. T-SAR eliminates memory bottlenecks and maximizes data-level parallelism, delivering 5.6-24.5x and 1.1-86.2x improvements in GEMM latency and GEMV throughput, respectively, with only 3.2% power and 1.4% area overheads in SIMD units. T-SAR achieves up to 2.5-4.9x the energy efficiency of an NVIDIA Jetson AGX Orin, establishing a practical approach for efficient LLM inference on edge platforms.},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Oh, Hyunwoo and Nam, KyungIn and Bhattacharjya, Rajat and Chen, Hanning and Das, Tamoghno and Yun, Sanggeon and Jang, Suyeon and Ding, Andrew and Dutt, Nikil and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--7},
+    
+    html = {https://arxiv.org/abs/2511.13676},
+
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+
+@inproceedings{oh_quill_2026,
+    address = {Verona, Italy},
+    title = {{QUILL: An Algorithm-Architecture Co-Design for Cache-Local Deformable Attention}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Deformable transformers deliver state-of-the-art detection but map poorly to hardware due to irregular memory access and low arithmetic intensity. We introduce QUILL, a schedule-aware accelerator that turns deformable attention into cache-friendly, single-pass work. At its core, Distance-based Out-of-Order Querying (DOOQ) orders queries by spatial proximity; the look-ahead drives a region prefetch into an alternate buffer--forming a schedule-aware prefetch loop that overlaps memory and compute. A fused MSDeformAttn engine executes interpolation, Softmax, aggregation, and the final projection (W''m) in one pass without spilling intermediates, while small tensors are kept on-chip and surrounding dense layers run on integrated GEMMs. Implemented as RTL and evaluated end-to-end, QUILL achieves up to 7.29x higher throughput and 47.3x better energy efficiency than an RTX 4090, and exceeds prior accelerators by 3.26-9.82x in throughput and 2.01-6.07x in energy efficiency. With mixed-precision quantization, accuracy tracks FP32 within <=0.9 AP across Deformable and Sparse DETR variants. By converting sparsity into locality--and locality into utilization--QUILL delivers consistent, end-to-end speedups.},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Oh, Hyunwoo and Chen, Hanning and Yun, Sanggeon and Ni, Yang and Huang, Wenjun and Das, Tamoghno and Jang, Suyeon and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--7},
+
+    html = {https://arxiv.org/abs/2511.13679},
+
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{oh_rift_2026,
+    address = {Verona, Italy},
+    title = {{RIFT: A Single-Bitstream, Runtime-Adaptive FPGA-Based Accelerator for Multimodal AI}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Multimodal models spanning ViTs, CNNs, GNNs, and transformer NLP stress embedded systems because their heterogeneous compute and memory behaviors complicate resource allocation, load balancing, and real-time inference. We present RIFT, a single-bitstream FPGA accelerator and compiler for end-to-end multimodal inference. RIFT unifies layers as DDMM/SDDMM/SpMM kernels executed on a runtime modeswitchable engine that morphs among weight-/output-stationary systolic, 1×CS SIMD, and a routable adder tree (RADT) on a shared datapath. A two-stage hardware top-k unit, width-matched to the array, performs in-stream token pruning with minimal buffering, and dependency-aware layer offloading (DALO) overlaps independent kernels across multiple RPUs—achieving adaptation without bitstream reconfiguration. On Alveo U50 and ZCU104, RIFT reduces latency by up to 22.57× versus an RTX 4090 and 6.86× versus a Jetson Orin Nano at ∼20–21 W; pruning alone yields up to 7.8× on ViT-heavy workloads. Ablations isolate contributions, with DALO improving throughput by up to 79%. Compared to prior FPGA designs, RIFT delivers state-of-the-art latency and energy efficiency across vision, language, and graph workloads in a single bitstream.},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Oh, Hyunwoo and Nam, KyungIn and Bhattacharjya, Rajat and Chen, Hanning and Das, Tamoghno and Yun, Sanggeon and Jang, Suyeon and Ding, Andrew and Dutt, Nikil and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--7},
+    
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {false}
+}
+
+@inproceedings{yun_decohd_2026,
+    address = {Verona, Italy},
+    title = {{DecoHD: Decomposed Hyperdimensional Classification under Extreme Memory Budgets}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Decomposition is a proven way to shrink deep networks without changing I/O. We bring this idea to hyperdimensional computing (HDC), where footprint cuts usually shrink the feature axis and erode concentration and robustness. Prior HDC decompositions decode via fixed atomic hypervectors, which are ill-suited for compressing learned class prototypes. We introduce DecoHD, which learns directly in a decomposed HDC parameterization: a small, shared set of per-layer channels with multiplicative binding across layers and bundling at the end, yielding a large representational space from compact factors. DecoHD compresses along the class axis via a lightweight bundling head while preserving native bind-bundle-score; training is end-to-end, and inference remains pure HDC, aligning with in/near-memory accelerators. In evaluation, DecoHD attains extreme memory savings with only minor accuracy degradation under tight deployment budgets. On average it stays within about 0.1-0.15% of a strong non-reduced HDC baseline (worst case 5.7%), is more robust to random bit-flip noise, reaches its accuracy plateau with up to ~97% fewer trainable parameters, and -- in hardware -- delivers roughly 277x/35x energy/speed gains over a CPU (AMD Ryzen 9 9950X), 13.5x/3.7x over a GPU (NVIDIA RTX 4090), and 2.0x/2.4x over a baseline HDC ASIC.},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Yun, Sanggeon and Oh, Hyunwoo and Masukawa, Ryozo and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--7},
+    
+    html = {https://arxiv.org/abs/2511.03911},
+
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {false}
+}
+
+
+@inproceedings{yun_loghd_2026,
+    address = {Verona, Italy},
+    title = {{LogHD: Robust Compression of Hyperdimensional Classifiers via Logarithmic Class-Axis Reduction}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Hyperdimensional computing (HDC) suits memory, energy, and reliability-constrained systems, yet the standard "one prototype per class" design requires O(CD) memory (with C classes and dimensionality D). Prior compaction reduces D (feature axis), improving storage/compute but weakening robustness. We introduce LogHD, a logarithmic class-axis reduction that replaces the C per-class prototypes with n≈⌈logkC⌉ bundle hypervectors (alphabet size k) and decodes in an n-dimensional activation space, cutting memory to O(DlogkC) while preserving D. LogHD uses a capacity-aware codebook and profile-based decoding, and composes with feature-axis sparsification. Across datasets and injected bit flips, LogHD attains competitive accuracy with smaller models and higher resilience at matched memory. Under equal memory, it sustains target accuracy at roughly 2.5-3.0× higher bit-flip rates than feature-axis compression; an ASIC instantiation delivers 498× energy efficiency and 62.6× speedup over an AMD Ryzen 9 9950X and 24.3×/6.58× over an NVIDIA RTX 4090, and is 4.06× more energy-efficient and 2.19× faster than a feature-axis HDC ASIC baseline.},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Yun, Sanggeon and Oh, Hyunwoo and Masukawa, Ryozo and Mercati, Pietro and Bastian, Nathaniel D and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--7},
+    
+    html = {https://arxiv.org/abs/2511.03938},
+
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {false}
+}
+
+
+@inproceedings{chung_scalable_2026,
+    address = {Verona, Italy},
+    title = {{Scalable Symbolic Reasoning with Matrix-Based Brain-Inspired Representations and Vector-Space Acceleration}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Chung, William Youngwoo and Oh, Hyunwoo and Barkam, Hamza Errahmouni and Yeung, Calvin and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--7},
+    
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {false}
+}
+
+@inproceedings{bhattacharjya_aamla_2026,
+    address = {Verona, Italy},
+    title = {{AAMLA: An Autonomous Agentic Framework for Memory-Aware LLM-Aided Hardware Generation}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Large Language Models (LLMs) have recently emerged as powerful assistants for hardware design, translating natural-language specifications into Hardware Description Languages (HDLs), yet fine-tuning these models on domainspecific corpora routinely exceeds the memory capacity of commodity GPUs and triggers Out-of-Memory (OoM) errors. We present AAMLA, an autonomous agentic framework that converts this pain point into a pushbutton experience. AAMLA incorporates memory awareness by coupling (i) a predictive memory profiler-LLMem++-that significantly extends the original LLMem framework to support a diverse set of memoryefficient fine-tuning strategies, including adapter-based (LoRA, DoRA), gradient-free (MeZO), token-sparse (TokenTune), and optimizer-modified (APOLLO) methods, with (ii) a portfolio of complementary memory-efficient adaptation techniques-leading to a complete synthesis flow. The system allows for a twostep early design space exploration workflow: it first prunes any method whose predicted footprint would violate the user's GPU budget, then consults an offline accuracy-latency atlas to recommend the Pareto-optimal strategy that aligns with the designer's stated priority (accuracy or turnaround time). Guided by this workflow, an agentic controller configures and applies the chosen technique, guaranteeing OoM-free execution without manual trial-and-error. The framework is model-and datasetagnostic, easily extensible with new tuning primitives, and exposes a simple interface that accepts natural-language prompts and emits synthesizable Verilog, thereby lowering the barrier to LLM-assisted hardware design for researchers and organizations with limited computational resources.},
+    booktitle = {{International Conference On VLSI Design (VLSID)}},
+    author = {Bhattacharjya, Rajat and Sung, Juhee and Jung, Hangyeol and Oh, Hyunwoo and Sarkar, Arnab and Imani, Mohsen and Dutt, Nikil},
+    month = jan,
+    year = {2026},
+    pages = {1--7},
+    
+    abbr = {VLSID},
+    bibtex_show = {true},
+    selected = {false}
+}
+
+@inproceedings{10.1145/3746027.3755243,
+    address = {Dublin, Ireland},
+    title = {{LVLM_CSP: Accelerating Large Vision Language Models via Clustering, Scattering, and Pruning for Reasoning Segmentation}},
+    author = {Chen, Hanning and Ni, Yang and Huang, Wenjun and Oh, Hyunwoo and Liu, Yezi and Das, Tamoghno and Imani, Mohsen},
+    isbn = {9798400720352},
+    url = {https://doi.org/10.1145/3746027.3755243},
+    doi = {10.1145/3746027.3755243},
+    abstract = {Large Vision Language Models (LVLMs) have been widely adopted to guide vision foundation models in performing reasoning segmentation tasks, achieving impressive performance. However, the substantial computational overhead associated with LVLMs presents a new challenge. The primary source of this computational cost arises from processing hundreds of image tokens. Therefore, an effective strategy to mitigate such overhead is to reduce the number of image tokens-a process known as image token pruning. Previous studies on image token pruning for LVLMs have primarily focused on high-level visual understanding tasks, such as visual question answering and image captioning. In contrast, guiding vision foundation models to generate accurate visual masks based on textual queries demands precise semantic and spatial reasoning capabilities. Consequently, pruning methods must carefully control individual image tokens throughout the LVLM reasoning process. Our empirical analysis reveals that existing methods struggle to adequately balance reductions in computational overhead with the necessity to maintain high segmentation accuracy. In this work, we propose LVLM_CSP, a novel training-free visual token pruning method specifically designed for LVLM-based reasoning segmentation tasks. LVLM_CSP consists of three stages: clustering, scattering, and pruning. Initially, the LVLM performs coarse-grained visual reasoning using a subset of selected image tokens. Next, fine-grained reasoning is conducted, and finally, most visual tokens are pruned in the last stage. Extensive experiments demonstrate that LVLM_CSP achieves a 65\% reduction in image token inference FLOPs with virtually no accuracy degradation, and a 70\% reduction with only a minor 1\% drop in accuracy on the 7B LVLM.},
+    booktitle = {ACM International Conference on Multimedia (MM)},
+    year = {2025},
+    pages = {3932–3941},
+    
+    abbr = {MM},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{jeong_itask_2025,
+    address = {San Francisco, CA, USA},
+    title = {{iTaskSense: Task-Oriented Object Detection in Resource-Constrained Environments}},
+    isbn = {},
+    url = {https://ieeexplore.ieee.org/abstract/document/11133060},
+    doi = {10.1109/DAC63849.2025.11133060},
     abstract = {Task-oriented object detection is increasingly essential for intelligent sensing applications, enabling AI systems to operate autonomously in complex, real-world environments such as autonomous driving, healthcare, and industrial automation. Conventional models often struggle with generalization, requiring vast datasets to accurately detect objects within diverse contexts. In this work, we introduce iTask, a taskoriented object detection framework that leverages large language models (LLMs) to generalize efficiently from limited samples by generating an abstract knowledge graph. This graph encapsulates essential task attributes, allowing iTask to identify objects based on high-level characteristics rather than extensive data, making it possible to adapt to complex mission requirements with minimal samples. iTask addresses the challenges of high computational cost and resource limitations in vision-language models by offering two configuration models: a distilled, task-specific vision transformer optimized for high accuracy in defined tasks, and a quantized version of the model for broader applicability across multiple tasks. Additionally, we designed a hardware acceleration circuit to support real-time processing, essential for edge devices that require low latency and efficient task execution. Our evaluations show that the task-specific configuration achieves a 15% higher accuracy over the quantized configuration in specific scenarios, while the quantized model provides robust multi-task performance. The hardware-accelerated iTask system achieves a 3.5x speedup and a 40% reduction in energy consumption compared to GPU-based implementations. These results demonstrate that iTask ’s dual-configuration approach and situational adaptability offer a scalable solution for task-specific object detection, providing robust and efficient performance in resource-constrained environments.},
     booktitle = {{ACM/IEEE Design Automation Conference (DAC)}},
     author = {Jeong, SungHeon and Barkam, Hamza Errahmouni and Oh, Hyunwoo and Chen, Hanning and Das, Tamoghno and Ye, Zhen and Imani, Mohsen},
     month = jun,
     year = {2025},
     pages = {1--7},
+
+    html = {https://ieeexplore.ieee.org/abstract/document/11133060},
     
     abbr = {DAC},
     present_type = {oral},
     bibtex_show = {true},
-    acc_text = {Accepted and to be appear},
     selected = {true}
 }
 
@@ -25,15 +179,15 @@
     address = {Fayetteville, AR, USA},
     title = {{A Multimodal AI Acceleration with Dynamic Pruning and Run-time Configuration}},
     isbn = {},
-    url = {},
-    doi = {},
+    url = {https://ieeexplore.ieee.org/abstract/document/11008951},
+    doi = {10.1109/FCCM62733.2025.00072},
     abstract = {The computational diversity of multimodal AI workloads—spanning vision transformers (ViTs), graph neural networks (GNNs), CNNs, and transformer-based NLP—poses a fundamental challenge to embedded acceleration platforms. We propose a fully integrated FPGA-based acceleration framework that addresses this heterogeneity via compile-time and runtime configurability. Our system introduces a reconfigurable processing unit (RPU) capable of executing dense and sparse matrix operations (DDMM, SpMM, SDDMM), a scalable top-k pruning engine for ViTs, and a domain-specific compiler for hardware-software co-design. The architecture supports real-time configuration without reloading bitstreams, enabling unified deployment across tasks. Implementations on Xilinx U50 and ZCU104 demonstrate up to 22.57× and 6.86× latency reductions versus RTX 4090 and Jetson Orin Nano, respectively, validating the design’s efficiency for real-time, resource-limited environments.},
     booktitle = {{IEEE International Symposium on Field-Programmable Custom Computing Machines(FCCM)}},
     author = {Oh, Hyun Woo and Chen, Hanning and Yun, Sanggeon and Ni, Yang and Khaleghi, Behnam and Wen, Fei and Imani, Mohsen},
     month = may,
     year = {2025},
 
-    html = {},
+    html = {https://ieeexplore.ieee.org/abstract/document/11008951},
     pdf = {2025_FCCM_paper.pdf},
     poster = {2025_FCCM_poster.pdf},
     
@@ -482,3 +636,4 @@
     poster = {2020_ISOCC_poster.pdf},
     selected = {false}
 }
+
