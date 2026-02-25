@@ -20,7 +20,6 @@
     selected = {true}
 }
 
-
 @inproceedings{oh_quill_2026,
     address = {Verona, Italy},
     title = {{QUILL: An Algorithm-Architecture Co-Design for Cache-Local Deformable Attention}},
@@ -39,24 +38,6 @@
     abbr = {DATE},
     bibtex_show = {true},
     selected = {true}
-}
-
-@inproceedings{oh_rift_2026,
-    address = {Verona, Italy},
-    title = {{RIFT: A Single-Bitstream, Runtime-Adaptive FPGA-Based Accelerator for Multimodal AI}},
-    isbn = {},
-    url = {},
-    doi = {},
-    abstract = {Multimodal models spanning ViTs, CNNs, GNNs, and transformer NLP stress embedded systems because their heterogeneous compute and memory behaviors complicate resource allocation, load balancing, and real-time inference. We present RIFT, a single-bitstream FPGA accelerator and compiler for end-to-end multimodal inference. RIFT unifies layers as DDMM/SDDMM/SpMM kernels executed on a runtime modeswitchable engine that morphs among weight-/output-stationary systolic, 1×CS SIMD, and a routable adder tree (RADT) on a shared datapath. A two-stage hardware top-k unit, width-matched to the array, performs in-stream token pruning with minimal buffering, and dependency-aware layer offloading (DALO) overlaps independent kernels across multiple RPUs—achieving adaptation without bitstream reconfiguration. On Alveo U50 and ZCU104, RIFT reduces latency by up to 22.57× versus an RTX 4090 and 6.86× versus a Jetson Orin Nano at ∼20–21 W; pruning alone yields up to 7.8× on ViT-heavy workloads. Ablations isolate contributions, with DALO improving throughput by up to 79%. Compared to prior FPGA designs, RIFT delivers state-of-the-art latency and energy efficiency across vision, language, and graph workloads in a single bitstream.},
-    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
-    author = {Oh, Hyunwoo and Nam, KyungIn and Bhattacharjya, Rajat and Chen, Hanning and Das, Tamoghno and Yun, Sanggeon and Jang, Suyeon and Ding, Andrew and Dutt, Nikil and Imani, Mohsen},
-    month = apr,
-    year = {2026},
-    pages = {1--7},
-    
-    abbr = {DATE},
-    bibtex_show = {true},
-    selected = {false}
 }
 
 @inproceedings{yun_decohd_2026,
@@ -100,6 +81,24 @@
     selected = {false}
 }
 
+@inproceedings{oh_rift_2026,
+    address = {Verona, Italy},
+    title = {{RIFT: A Single-Bitstream, Runtime-Adaptive FPGA-Based Accelerator for Multimodal AI}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Multimodal models spanning ViTs, CNNs, GNNs, and transformer NLP stress embedded systems because their heterogeneous compute and memory behaviors complicate resource allocation, load balancing, and real-time inference. We present RIFT, a single-bitstream FPGA accelerator and compiler for end-to-end multimodal inference. RIFT unifies layers as DDMM/SDDMM/SpMM kernels executed on a runtime modeswitchable engine that morphs among weight-/output-stationary systolic, 1×CS SIMD, and a routable adder tree (RADT) on a shared datapath. A two-stage hardware top-k unit, width-matched to the array, performs in-stream token pruning with minimal buffering, and dependency-aware layer offloading (DALO) overlaps independent kernels across multiple RPUs—achieving adaptation without bitstream reconfiguration. On Alveo U50 and ZCU104, RIFT reduces latency by up to 22.57× versus an RTX 4090 and 6.86× versus a Jetson Orin Nano at ∼20–21 W; pruning alone yields up to 7.8× on ViT-heavy workloads. Ablations isolate contributions, with DALO improving throughput by up to 79%. Compared to prior FPGA designs, RIFT delivers state-of-the-art latency and energy efficiency across vision, language, and graph workloads in a single bitstream.},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Oh, Hyunwoo and Nam, KyungIn and Bhattacharjya, Rajat and Chen, Hanning and Das, Tamoghno and Yun, Sanggeon and Jang, Suyeon and Ding, Andrew and Dutt, Nikil and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--2},
+    
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {false},
+    note = {Extended Abstract}
+}
 
 @inproceedings{chung_scalable_2026,
     address = {Verona, Italy},
@@ -112,11 +111,12 @@
     author = {Chung, William Youngwoo and Oh, Hyunwoo and Barkam, Hamza Errahmouni and Yeung, Calvin and Imani, Mohsen},
     month = apr,
     year = {2026},
-    pages = {1--7},
+    pages = {1--2},
     
     abbr = {DATE},
     bibtex_show = {true},
-    selected = {false}
+    selected = {false},
+    note = {Extended Abstract}
 }
 
 @inproceedings{bhattacharjya_aamla_2026,
@@ -639,6 +639,7 @@
     poster = {2020_ISOCC_poster.pdf},
     selected = {false}
 }
+
 
 
 
