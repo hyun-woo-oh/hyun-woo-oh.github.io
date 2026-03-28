@@ -1,5 +1,45 @@
 ---
 ---
+@inproceedings{oh_trine_2026,
+    address = {Long Beach, CA, USA},
+    title = {{TRINE: A Token-Aware, Runtime-Adaptive FPGA Inference Engine for Multimodal AI}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Multimodal stacks that mix ViTs, CNNs, GNNs, and transformer NLP strain embedded platforms because their compute/memory patterns diverge and hard real-time targets leave little slack. TRINE is a single-bitstream FPGA accelerator and compiler that executes end-to-end multimodal inference without reconfiguration. Layers are unified as DDMM/SDDMM/SpMM and mapped to a modeswitchable engine that toggles at runtime among weight/outputstationary systolic, 1×CS SIMD, and a routable adder tree (RADT) on a shared PE array. A width-matched, two-stage top-k unit enables in-stream token pruning, while dependency-aware layer offloading (DALO) overlaps independent kernels across reconfigurable processing units to sustain utilization. Evaluated on Alveo U50 and ZCU104, TRINE reduces latency by up to 22.57× vs. RTX 4090 and 6.86× vs. Jetson Orin Nano at 20–21 W; token pruning alone yields up to 7.8× on ViT-heavy pipelines, and DALO contributes up to 79% throughput improvement. With int8 quantization, accuracy drops remain <2.5% across representative tasks, delivering state-of-theart latency and energy efficiency for unified vision, language, and graph workloads—in one bitstream.},
+    booktitle = {{ACM/IEEE Design, Automation Conference (DAC)}},
+    author = {Hyunwoo Oh and Hanning Chen and Sanggeon Yun and Yang Ni and Suyeon Jang and Behnam Khaleghi and Fei Wen and Mohsen Imani},
+    month = jul,
+    year = {2026},
+    pages = {1--7},
+    
+    html = {https://arxiv.org/pdf/2603.22867},
+
+    abbr = {DAC},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{oh_torr_2026,
+    address = {Long Beach, CA, USA},
+    title = {{TorR: Towards Brain-Inspired Task-Oriented Reasoning via Cache-Oriented Algorithm-Architecture Co-design}},
+    isbn = {},
+    url = {},
+    doi = {},
+    abstract = {Task-oriented object detection (TOOD) atop CLIP offers open-vocabulary, prompt-driven semantics, yet dense per-window computation and heavy memory traffic hinder real-time, power-limited edge deployment. We present TorR, a brain-inspired algorithm–architecture co-design that replaces CLIP-style dense alignment with a hyperdimensional (HDC) associative reasoner and turns temporal coherence into reuse. On the algorithm side, TorR reformulates alignment as HDC similarity and graph composition, introducing partial-similarity reuse via (i) query caching with per-class score accumulation, (ii) exact 𝛿-updates when only a small set of hypervector bits change, and (iii) similarity/load-gated bypass under high system load. On the architecture side, TorR instantiates a lane-scalable, bit-sliced item memory with bank/precision gating and a lightweight controller that schedules bypass/𝛿/full paths to meet RT-30/RT-60 targets as object counts vary. Synthesized in a TSMC 28 nm process and exercised with a cycle-accurate simulator, TorR sustains real-time throughput with millijoule-scale energy per window (≈50 mJ at 60 FPS; ≈113 mJ at 30 FPS) and low latency jitter, while delivering competitive AP@0.5 across five task prompts (mean 44.27%) within a bounded margin to strong VLM baselines, but at orders-of-magnitude lower energy. The design exposes deployment-time configurability (effective dimension 𝐷′, thresholds, precision) to trade accuracy, latency, and energy for edge budgets.),
+    booktitle = {{ACM/IEEE Design, Automation Conference (DAC)}},
+    author = {Hyunwoo Oh and SungHeon Jeong and Suyeon Jang and Hanning Chen and Sanggeon Yun and Tamoghno Das and Mohsen Imani},
+    month = jul,
+    year = {2026},
+    pages = {1--7},
+    
+    html = {https://arxiv.org/pdf/2603.22855},
+
+    abbr = {DAC},
+    bibtex_show = {true},
+    selected = {true}
+}
+
 @inproceedings{oh_tsar_2026,
     address = {Verona, Italy},
     title = {{T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization}},
