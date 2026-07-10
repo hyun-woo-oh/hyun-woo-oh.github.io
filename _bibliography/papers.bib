@@ -44,8 +44,8 @@
     address = {Verona, Italy},
     title = {{T-SAR: A Full-Stack Co-design for CPU-Only Ternary LLM Inference via In-Place SIMD ALU Reorganization}},
     isbn = {},
-    url = {},
-    doi = {},
+    url = {https://ieeexplore.ieee.org/abstract/document/11539096},
+    doi = {10.23919/DATE69613.2026.11539096},
     abstract = {Recent advances in LLMs have outpaced the computational and memory capacities of edge platforms that primarily employ CPUs, thereby challenging efficient and scalable deployment. While ternary quantization enables significant resource savings, existing CPU solutions rely heavily on memory-based lookup tables (LUTs) which limit scalability, and FPGA or GPU accelerators remain impractical for edge use. This paper presents T-SAR, the first framework to achieve scalable ternary LLM inference on CPUs by repurposing the SIMD register file for dynamic, in-register LUT generation with minimal hardware modifications. T-SAR eliminates memory bottlenecks and maximizes data-level parallelism, delivering 5.6-24.5x and 1.1-86.2x improvements in GEMM latency and GEMV throughput, respectively, with only 3.2% power and 1.4% area overheads in SIMD units. T-SAR achieves up to 2.5-4.9x the energy efficiency of an NVIDIA Jetson AGX Orin, establishing a practical approach for efficient LLM inference on edge platforms.},
     booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
     author = {Oh, Hyunwoo and Nam, KyungIn and Bhattacharjya, Rajat and Chen, Hanning and Das, Tamoghno and Yun, Sanggeon and Jang, Suyeon and Ding, Andrew and Dutt, Nikil and Imani, Mohsen},
@@ -64,8 +64,8 @@
     address = {Verona, Italy},
     title = {{QUILL: An Algorithm-Architecture Co-Design for Cache-Local Deformable Attention}},
     isbn = {},
-    url = {},
-    doi = {},
+    url = {https://ieeexplore.ieee.org/abstract/document/11539507},
+    doi = {10.23919/DATE69613.2026.11539507},
     abstract = {Deformable transformers deliver state-of-the-art detection but map poorly to hardware due to irregular memory access and low arithmetic intensity. We introduce QUILL, a schedule-aware accelerator that turns deformable attention into cache-friendly, single-pass work. At its core, Distance-based Out-of-Order Querying (DOOQ) orders queries by spatial proximity; the look-ahead drives a region prefetch into an alternate buffer--forming a schedule-aware prefetch loop that overlaps memory and compute. A fused MSDeformAttn engine executes interpolation, Softmax, aggregation, and the final projection (W''m) in one pass without spilling intermediates, while small tensors are kept on-chip and surrounding dense layers run on integrated GEMMs. Implemented as RTL and evaluated end-to-end, QUILL achieves up to 7.29x higher throughput and 47.3x better energy efficiency than an RTX 4090, and exceeds prior accelerators by 3.26-9.82x in throughput and 2.01-6.07x in energy efficiency. With mixed-precision quantization, accuracy tracks FP32 within <=0.9 AP across Deformable and Sparse DETR variants. By converting sparsity into locality--and locality into utilization--QUILL delivers consistent, end-to-end speedups.},
     booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
     author = {Oh, Hyunwoo and Chen, Hanning and Yun, Sanggeon and Ni, Yang and Huang, Wenjun and Das, Tamoghno and Jang, Suyeon and Imani, Mohsen},
@@ -79,6 +79,44 @@
     bibtex_show = {true},
     selected = {true}
 }
+
+@inproceedings{oh_rift_2026,
+    address = {Verona, Italy},
+    title = {{RIFT: A Single-Bitstream, Runtime-Adaptive FPGA-Based Accelerator for Multimodal AI}},
+    isbn = {},
+    url = {https://ieeexplore.ieee.org/abstract/document/11539726},
+    doi = {10.23919/DATE69613.2026.11539726},
+    abstract = {Multimodal models spanning ViTs, CNNs, GNNs, and transformer NLP stress embedded systems because their heterogeneous compute and memory behaviors complicate resource allocation, load balancing, and real-time inference. We present RIFT, a single-bitstream FPGA accelerator and compiler for end-to-end multimodal inference. RIFT unifies layers as DDMM/SDDMM/SpMM kernels executed on a runtime mode-switchable engine that morphs among weight-/output-stationary systolic, 1×CS SIMD, and a routable adder tree (RADT) on a shared datapath. A two-stage hardware top-k unit, width-matched to the array, performs in-stream token pruning with minimal buffering, and dependency-aware layer offloading (DALO) overlaps independent kernels across multiple RPUs—achieving adaptation without bitstream reconfiguration. On Alveo U50 and ZCU104, RIFT reduces latency by up to 22.57× versus an RTX 4090 and 6.86× versus a Jetson Orin Nano at ∼20–21 W; pruning alone yields up to 7.8× on ViT-heavy workloads. Ablations isolate contributions, with DALO improving throughput by up to 79%. Compared to prior FPGA designs, RIFT delivers state-of-the-art latency and energy efficiency across vision, language, and graph workloads in a single bitstream.},
+    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
+    author = {Oh, Hyunwoo and Nam, KyungIn and Bhattacharjya, Rajat and Chen, Hanning and Das, Tamoghno and Yun, Sanggeon and Jang, Suyeon and Ding, Andrew and Dutt, Nikil and Imani, Mohsen},
+    month = apr,
+    year = {2026},
+    pages = {1--3},
+
+    html = {https://ieeexplore.ieee.org/abstract/document/11539726},
+    
+    abbr = {DATE},
+    bibtex_show = {true},
+    selected = {false}
+}
+
+@inproceedings{bhattacharjya_hyperdoa_2026,
+    address = {Barcelona, Spain},
+    title = {{HYPERDOA: Robust and Efficient DoA Estimation Using Hyperdimensional Computing}}, 
+    author = {Bhattacharjya, Rajat and Park, Woohyeok and Sarkar, Arnab and Oh, Hyunwoo and Imani, Mohsen and Dutt, Nikil},
+    booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+    year = {2026},
+    month = may,
+    pages = {20841-20845},
+    doi = {10.1109/ICASSP55912.2026.11464439},
+
+    html = {https://ieeexplore.ieee.org/abstract/document/11464439},
+
+    abbr = {ICASSP},
+    bibtex_show = {true},
+    selected = {false}
+}
+
 
 @inproceedings{yun_decohd_2026,
     address = {Verona, Italy},
@@ -121,25 +159,6 @@
     selected = {false}
 }
 
-@inproceedings{oh_rift_2026,
-    address = {Verona, Italy},
-    title = {{RIFT: A Single-Bitstream, Runtime-Adaptive FPGA-Based Accelerator for Multimodal AI}},
-    isbn = {},
-    url = {},
-    doi = {},
-    abstract = {Multimodal models spanning ViTs, CNNs, GNNs, and transformer NLP stress embedded systems because their heterogeneous compute and memory behaviors complicate resource allocation, load balancing, and real-time inference. We present RIFT, a single-bitstream FPGA accelerator and compiler for end-to-end multimodal inference. RIFT unifies layers as DDMM/SDDMM/SpMM kernels executed on a runtime mode-switchable engine that morphs among weight-/output-stationary systolic, 1×CS SIMD, and a routable adder tree (RADT) on a shared datapath. A two-stage hardware top-k unit, width-matched to the array, performs in-stream token pruning with minimal buffering, and dependency-aware layer offloading (DALO) overlaps independent kernels across multiple RPUs—achieving adaptation without bitstream reconfiguration. On Alveo U50 and ZCU104, RIFT reduces latency by up to 22.57× versus an RTX 4090 and 6.86× versus a Jetson Orin Nano at ∼20–21 W; pruning alone yields up to 7.8× on ViT-heavy workloads. Ablations isolate contributions, with DALO improving throughput by up to 79%. Compared to prior FPGA designs, RIFT delivers state-of-the-art latency and energy efficiency across vision, language, and graph workloads in a single bitstream.},
-    booktitle = {{Design, Automation and Test in Europe Conference (DATE)}},
-    author = {Oh, Hyunwoo and Nam, KyungIn and Bhattacharjya, Rajat and Chen, Hanning and Das, Tamoghno and Yun, Sanggeon and Jang, Suyeon and Ding, Andrew and Dutt, Nikil and Imani, Mohsen},
-    month = apr,
-    year = {2026},
-    pages = {1--2},
-    
-    abbr = {DATE},
-    bibtex_show = {true},
-    selected = {false},
-    note = {Accepted as extended abstract}
-}
-
 @inproceedings{chung_scalable_2026,
     address = {Verona, Italy},
     title = {{Scalable Symbolic Reasoning with Matrix-Based Brain-Inspired Representations and Vector-Space Acceleration}},
@@ -151,12 +170,11 @@
     author = {Chung, William Youngwoo and Oh, Hyunwoo and Barkam, Hamza Errahmouni and Yeung, Calvin and Imani, Mohsen},
     month = apr,
     year = {2026},
-    pages = {1--2},
+    pages = {1--3},
     
     abbr = {DATE},
     bibtex_show = {true},
-    selected = {false},
-    note = {Accepted as extended abstract}
+    selected = {false}
 }
 
 @inproceedings{bhattacharjya_aamla_2026,
@@ -188,7 +206,9 @@
     booktitle = {ACM International Conference on Multimedia (MM)},
     year = {2025},
     pages = {3932–3941},
-    
+
+    html = {https://doi.org/10.1145/3746027.3755243},
+
     abbr = {MM},
     bibtex_show = {true},
     selected = {true}
