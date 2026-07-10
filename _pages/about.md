@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CS PhD Student @ UC Irvine / Graduate Student Researcher @ BIASLab
+subtitle: CS PhD Student @ UC Irvine / Research Intern @ Microsoft
 
 profile:
   align: right
@@ -17,6 +17,8 @@ social: true  # includes social icons at the bottom of the page
 Hello there! I'm Hyunwoo Oh.
 
 I'm a PhD student in Computer Science at the University of California, Irvine, supervised by [Prof. Mohsen Imani](http://www.mohsenimani.com/){:target="_blank"} @ [BIASLab](https://biaslab.ics.uci.edu/){:target="_blank"}.
+
+I am currently a Microsoft Research Intern, working with the System Planning and Architecture Group (SPARC) in Azure Hardware Systems and Infrastructure on FPGA-based modeling and system architecture for large-scale AI infrastructure.
 
 My research sits at the intersection of computer architecture, machine learning, and hardware–software co-design. I build efficient systems that scale emerging AI models—such as large language models, multimodal models, vision transformers, and GNNs—under tight performance, energy, and cost constraints.
 
