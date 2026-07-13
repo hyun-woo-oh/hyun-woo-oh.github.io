@@ -3,10 +3,10 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #f6f7fa;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
+  --global-text-color: #172033;
+  --global-text-color-light: #5f6878;
   --global-theme-color: #{$purple-color};
   --global-hover-color: #{$purple-color};
   --global-hover-text-color: #{$white-color};
@@ -14,8 +14,10 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-divider-color: #d6dbe5;
   --global-card-bg-color: #{$white-color};
+  --global-surface-soft: #edf1f6;
+  --global-surface-muted: #f1f3f7;
 
   --global-badge-conf-color: #b36a00;
   --global-badge-jrnl-color: #007bb2;
@@ -70,7 +72,7 @@ html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
+  --global-text-color-light: #b7bfcc;
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
@@ -80,6 +82,8 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-surface-soft: #252a31;
+  --global-surface-muted: #22262c;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
