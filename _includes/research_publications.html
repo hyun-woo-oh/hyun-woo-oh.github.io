@@ -1,0 +1,8 @@
+{%- assign research_papers = include.papers | replace: ", ", "," | split: "," | join: "|" | prepend: "(" | append: ")" -%}
+<div class="research-publications publications" id="{{ include.id }}-papers">
+  <div class="research-publications-heading">
+    <h3>Related papers</h3>
+    <a href="{{ '/publications/' | relative_url }}">View all publications <span aria-hidden="true">→</span></a>
+  </div>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ research_papers }}]* %}
+</div>

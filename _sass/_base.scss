@@ -587,9 +587,31 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 280px;
       }
 
+      .publication-preview-column {
+        height: auto !important;
+        min-height: 0;
+        margin-bottom: 1rem;
+        padding-left: 0.375rem;
+        padding-right: 0.375rem;
+
+        picture { display: block; width: 100%; }
+        .preview {
+          display: block;
+          width: 100%;
+          max-width: none;
+          max-height: 240px;
+          object-fit: contain;
+          background: #fff;
+        }
+        abbr {
+          display: block;
+          width: fit-content;
+          margin-bottom: 0.65rem;
+        }
+      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -638,8 +660,9 @@ footer.sticky-bottom {
         }
 
         >em {
-          border-bottom: 1px solid;
+          border-bottom: 0;
           font-style: normal;
+          font-weight: 700;
         }
 
         >span.more-authors {
@@ -652,6 +675,16 @@ footer.sticky-bottom {
             border-bottom: 1px dashed var(--global-text-color);
           }
         }
+      }
+
+      // Preview entries must grow with their figure; the standard badge-only
+      // column above intentionally stays compact.
+      .abbr.publication-preview-column {
+        height: auto !important;
+      }
+
+      .compact-citation {
+        display: none;
       }
 
       .links {

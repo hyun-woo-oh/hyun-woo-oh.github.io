@@ -1,6 +1,6 @@
 FROM bitnami/minideb:latest
 
-Label MAINTAINER Amir Pourmand
+LABEL maintainer="Hyunwoo Oh"
 
 RUN apt-get update -y
 
@@ -21,21 +21,23 @@ RUN apt-get install imagemagick -y
 RUN apt-get install python3-pip -y
 RUN python3 -m pip install jupyter --break-system-packages
 
-# install jekyll and dependencies
-RUN gem install jekyll bundler
+# Install the Bundler version recorded in Gemfile.lock. Jekyll and all plugins
+# are installed by `bundle install` below.
+RUN gem install bundler -v 2.5.4
 
-RUN mkdir /srv/jekyll
+ENV BUNDLE_PATH=/usr/local/bundle
 
-ADD Gemfile /srv/jekyll
+RUN mkdir -p /srv/jekyll
+
+COPY Gemfile Gemfile.lock /srv/jekyll/
 
 WORKDIR /srv/jekyll
 
 RUN bundle install
-RUN bundle update
 
 # Set Jekyll environment
 ENV JEKYLL_ENV=production 
 
 EXPOSE 8080
 
-CMD ["/bin/bash", "-c", "rm -f Gemfile.lock && exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"]
+CMD ["bundle", "exec", "jekyll", "serve", "--watch", "--port=8080", "--host=0.0.0.0", "--livereload", "--trace"]

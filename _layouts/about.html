@@ -2,104 +2,62 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+<div class="post home-academic">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% include figure.html path=profile_image_path class="img-fluid z-depth-1 rounded" alt=page.profile.image cache_bust=true %}
+        {% endif %}
+      </div>
+    {% endif %}
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+    <div class="clearfix home-about-copy">{{ content }}</div>
 
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+    <section class="home-process" aria-label="Research approach">
+      <p><strong>Research approach.</strong> Measure real bottlenecks <span>→</span> co-design algorithms and architecture <span>→</span> implement CUDA/CPU kernels and hardware <span>→</span> validate complete systems.</p>
+    </section>
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+    <nav class="home-links" aria-label="Primary links">
+      <a class="btn btn-sm z-depth-0" href="{{ '/research/' | relative_url }}">Research</a>
+      <a class="btn btn-sm z-depth-0" href="{{ '/publications/' | relative_url }}">All publications</a>
+      <a class="btn btn-sm z-depth-0" href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
+    </nav>
 
-          <div class="container" style="display: flex; justify-content: center;">
-            <a class="btn" role="button" href="/publications"
-                style=" background-color: #F4E9F3;
-                        border: 1px solid var(--global-text-color);
-                        width:  200px;
-                        height: 30px;
-                        padding-left:  0;
-                        padding-right: 0;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color: black;
-                        ">All Publications</a>
-            <a class="btn" role="button" href="/cv"
-                style=" background-color: #B8DEE0;
-                        border: 1px solid var(--global-text-color);
-                        width:  200px;
-                        height: 30px;
-                        padding-left:  0;
-                        padding-right: 0;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color: black;
-                        ">Curriculum Vitae</a>
-          </div>
-          <br>
+    <section class="home-research-list" aria-labelledby="home-research-heading">
+      <h2 id="home-research-heading"><a href="{{ '/research/' | relative_url }}" style="color: inherit;">research</a></h2>
+      <a class="home-research-blue" href="{{ '/research/#efficient-llm' | relative_url }}"><div class="home-research-thumb"><img src="{{ '/assets/img/research/tsar-concept.webp' | relative_url }}" alt="T-SAR low-bit CPU inference concept" loading="lazy"></div><div class="home-research-copy"><span>01</span><strong>Scalable low-bit ML on everyday processors</strong><p>Quantization, CUDA/CPU kernels, and architectural support for practical inference.</p></div></a>
+      <a class="home-research-purple" href="{{ '/research/#adaptive-accelerators' | relative_url }}"><div class="home-research-thumb"><img src="{{ '/assets/img/research/trine-overview.webp' | relative_url }}" alt="TRINE accelerator architecture" loading="lazy"></div><div class="home-research-copy"><span>02</span><strong>Accelerators for emerging ML workloads</strong><p>Specialized hardware shaped by real compute, memory, and dataflow bottlenecks.</p></div></a>
+      <a class="home-research-teal" href="{{ '/research/#brain-inspired' | relative_url }}"><div class="home-research-thumb"><img src="{{ '/assets/img/research/torr-overview-v2.webp' | relative_url }}" alt="TorR brain-inspired reasoning framework" loading="lazy"></div><div class="home-research-copy"><span>03</span><strong>Brain-inspired learning and reasoning</strong><p>Efficient perception and decisions with hyperdimensional computing and associative memory.</p></div></a>
+    </section>
 
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
+    {% if page.news and site.announcements.enabled %}
+      <section class="home-news">
+        <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+        {% include news.html limit=true month_only=true %}
+      </section>
+    {% endif %}
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+    {% if page.selected_papers %}
+      <section class="home-selected-compact">
+        <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+        {% include selected_papers.html %}
+      </section>
+    {% endif %}
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
-        </article>
-
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.html %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+  </article>
 </div>
